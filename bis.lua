@@ -392,7 +392,8 @@ return {
 			['Secondary'] = 'Shield of the Lightning Lord/28366',
 			['Ranged'] = 'Totem of the Chimera/28361',
 			['DSK1'] = 'Shoulderpads of Warfare/28116',
-			['DSK2'] = 'Symbol of the Overlord/40814',
+			['DSK2'] = 'Stud of Chilling Precision/27623',
+			['DSK3'] = 'Symbol of the Overlord/40814',
 		},
 		['Wizard'] = {
 			['Chest'] = 'Academic\'s Robe of the Arcanists/32447',
@@ -2536,16 +2537,13 @@ return {
 				{Name='Visibles', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrist1','Wrist2'}},
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist'}},
 				{Name='Weapons', Slots={'MainHand','Secondary','Range','Charm'}},
-				{Name='Augments', Slots={'Aug1','Aug2','Aug3','Aug4','Aug5','Aug6'}},
+				{Name='Augments', Slots={'Aug1','Aug2','Aug3'}},
 			}
 		},
 		['Template'] = {
 			['Aug1'] = 'Hulcror Pearl',
-			['Aug2'] = 'Discordian Rune of Evasion',
-			['Aug3'] = 'Discordian Alloy of Tenacity',
-			['Aug4'] = 'Enchanted Jewel of Shielding',
-			['Aug5'] = 'Enchanted Orb of Defense',
-			['Aug6'] = 'Glyphed Sandstone/68800',
+			['Aug2'] = 'Enchanted Orb of Defense',
+			['Aug3'] = 'Glyphed Sandstone/68800',
 		},
 	},
 	['Template'] = {
