@@ -2327,8 +2327,7 @@ return {
 			['Range'] = 'Fetish of Irreverent Knowledge',
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
-			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky3'] = 'Mantle of Corruption/69163',	
 		},
 		['Magician'] = {
 			['Arms'] = 'UNKNOWN',
@@ -2354,8 +2353,7 @@ return {
 			['Range'] = 'Fetish of Irreverent Knowledge',
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
-			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky3'] = 'Mantle of Corruption/69163',		
 		},
 		['Monk'] = {
 			['Arms'] = 'Sleeves of the Steadfast',
@@ -2409,8 +2407,7 @@ return {
 			['Range'] = 'Fetish of Irreverent Knowledge',
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
-			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky3'] = 'Mantle of Corruption/69163',	
 		},
 		['Paladin'] = {
 			['Arms'] = 'Armguards of Insidious Corruption',
@@ -2627,7 +2624,6 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
 		},
 		['Main'] = {
 			['Slots'] = {

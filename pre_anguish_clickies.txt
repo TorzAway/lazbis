@@ -14,7 +14,6 @@ MELEE ( NOT BST + RNG )
 ['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
 ['Clicky5'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
 
-
 MELEE ( BST + RNG )
 
 ['Clicky1'] = 'Veil of the Inferno', -- Form of Endurance II
@@ -24,9 +23,15 @@ MELEE ( BST + RNG )
 ['Clicky5'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
 ['Clicky6'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
 
-PRIEST / CASTER
+PRIEST 
 
 ['Clicky1'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
 ['Clicky2'] = 'Mantle of Corruption', -- Geomantra
 ['Clicky3'] = 'Loop of Endless Insanity', -- Trushar's Recovery
 ['Clicky4'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
+
+CASTER
+
+['Clicky1'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
+['Clicky2'] = 'Mantle of Corruption', -- Geomantra
+['Clicky3'] = 'Loop of Endless Insanity', -- Trushar's Recovery
