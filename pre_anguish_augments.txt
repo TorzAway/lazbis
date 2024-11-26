@@ -1,0 +1,10 @@
+TANKS
+
+['Aug1'] = 'Hulcror Pearl/70694',
+['Aug2'] = 'Enchanted Orb of Defense/68019',
+['Aug3'] = 'Glyphed Sandstone/68800',			
+['Aug4'] = 'Blessed Shard/68667',
+['Aug5'] = 'Experimental Gem of Enhanced Protection/68048',
+['Aug6'] = 'Frosty Gem of Enhanced Protection/68107',			
+['Aug7'] = 'Guardian\'s Stone of Enhanced Protection/68049',
+['Aug8'] = 'Yenner\'s Rock of Enhanced Protection/68047',
