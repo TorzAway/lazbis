@@ -3,6 +3,7 @@ Gotta collect em all
 
 ## Notes
 --> IT IS A WORK IN PROGRESS <--
+
 Being maintained by Kroaking DaKnightsAway until such time as incorporated into  official LazBis by AQuietOne. 
 
 Main difference: 
