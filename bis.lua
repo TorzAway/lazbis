@@ -2634,7 +2634,7 @@ return {
 				{Name='Visibles', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrist1','Wrist2'}},
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist'}},
 				{Name='Weapons', Slots={'MainHand','Secondary','Range','Charm'}},				
-				{Name='Clickies', Slots={'Clicky1','Clicky2','Clicky3','Clicky4','Clicky5','Clicky6'}},
+				{Name='Clickies', Slots={'Clicky1','Clicky2','Clicky3','Clicky4','Clicky5'}},
 				{Name='Augments', Slots={'Aug1','Aug2','Aug3','Aug4','Aug5','Aug6','Aug7','Aug8'}}
 			}
 		},
