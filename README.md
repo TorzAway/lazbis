@@ -5,7 +5,8 @@ Gotta collect em all
 Being maintained by Kroaking DaKnightsAway until such time as incorporated into  
 official LazBis by AQuietOne. 
 
-Main difference: This version is a work in progress for ALL Pre-Anguish BIS.
+Main difference: 
+This version is a work in progress for Pre-Anguish BIS gear, augments, clickies on ALL CLASSES.
 
 ## Credits
 Initial anguish and DSK standalone scripts provided by Dlilah and ... from Verticordious.  
