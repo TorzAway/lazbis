@@ -9,7 +9,7 @@ Being maintained by Kroaking DaKnightsAway until such time as incorporated into 
 Main difference: 
 This version is a work in progress for Pre-Anguish BIS gear, augments, clickies on ALL CLASSES.
 
-* This cloned split will be updated to merge any future changes made to source lazbis by Aquietone.
+* This cloned split will be updated to merge any future changes made to source lazbis by AQuietOne.
 
 ## Credits
 Initial anguish and DSK standalone scripts provided by Dlilah and ... from Verticordious.  
