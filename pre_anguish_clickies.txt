@@ -1,36 +1,32 @@
 TANK
 
-['Clicky1'] = 'Band of Primordial Energy/26990', -- Form of Defense II 			
-['Clicky2'] = 'Cloak of Retribution/15842', -- Vengeful Guard
-['Clicky3'] = 'Loop of Endless Insanity/68957', -- Trushar's Recovery
-['Clicky4'] = 'Mantle of Corruption/69163', -- Geomantra
-['Clicky5'] = 'Ring of Organic Darkness/69131',  -- Taelosian Guard
-['Clicky6'] = 'Prismatic Ring of Resistance/26989',  -- Eternal Ward 
-['Clicky7'] = 'Sparkling Bracer of the Jeweled Hero/68084', -- Icicle Shield	
+['Clicky1'] = 'Band of Primordial Energy', -- Form of Defense II 			
+['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
+['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
+['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
+['Clicky5'] = 'Sparkling Bracer of the Jeweled Hero', -- Icicle Shield  ( WAR ONLY )
 
-MELEE (Except BST and RNG)
+MELEE ( NOT BST + RNG )
 
-['Clicky1'] = 'Cloak of Retribution/15842', -- Vengeful Guard
-['Clicky2'] = 'Loop of Endless Insanity/68957', -- Trushar's Recovery
-['Clicky3'] = 'Mantle of Corruption/69163', -- Geomantra
-['Clicky4'] = 'Prismatic Ring of Resistance/26989',  -- Eternal Ward 
-['Clicky5'] = 'Ring of Organic Darkness/69131',  -- Taelosian Guard
-['Clicky6'] = 'Veil of the Inferno/9435', -- Form of Endurance II
+['Clicky1'] = 'Veil of the Inferno', -- Form of Endurance II
+['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
+['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
+['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
+['Clicky5'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
 
 
-BST and RNG (Melee + Mana from EoPD)
+MELEE ( BST + RNG )
 
-['Clicky1'] = 'Cloak of Retribution/15842', -- Vengeful Guard
-['Clicky2'] = 'Earring of Pain Deliverance/69133', -- Reyfin's Random Musings
-['Clicky3'] = 'Loop of Endless Insanity/68957', -- Trushar's Recovery
-['Clicky4'] = 'Mantle of Corruption/69163', -- Geomantra
-['Clicky5'] = 'Prismatic Ring of Resistance/26989',  -- Eternal Ward 
-['Clicky6'] = 'Ring of Organic Darkness/69131',  -- Taelosian Guard
-['Clicky7'] = 'Veil of the Inferno/9435', -- Form of Endurance II
- 
+['Clicky1'] = 'Veil of the Inferno', -- Form of Endurance II
+['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
+['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
+['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
+['Clicky5'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
+['Clicky6'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
+
 PRIEST / CASTER
 
-['Clicky1'] = 'Earring of Pain Deliverance/69133', -- Reyfin's Random Musings
-['Clicky2'] = 'Loop of Endless Insanity/68957', -- Trushar's Recovery
-['Clicky3'] = 'Mantle of Corruption/69163', -- Geomantra
-['Clicky4'] = 'Prismatic Ring of Resistance/26989',  -- Eternal Ward 
+['Clicky1'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
+['Clicky2'] = 'Mantle of Corruption', -- Geomantra
+['Clicky3'] = 'Loop of Endless Insanity', -- Trushar's Recovery
+['Clicky4'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
