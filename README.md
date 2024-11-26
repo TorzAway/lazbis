@@ -2,8 +2,7 @@
 Gotta collect em all
 
 ## Notes
-Being maintained by Kroaking DaKnightsAway until such time as incorporated into  
-official LazBis by AQuietOne. 
+Being maintained by Kroaking DaKnightsAway until such time as incorporated into  official LazBis by AQuietOne. 
 
 Main difference: 
 This version is a work in progress for Pre-Anguish BIS gear, augments, clickies on ALL CLASSES.
