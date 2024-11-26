@@ -3,7 +3,8 @@ Gotta collect em all
 
 ## Notes
 Being maintained by Kroaking DaKnightsAway until such time as incorporated into  
-official LazBis by AQuietOne.
+official LazBis by AQuietOne. 
+Main difference: This version is a work in progress for ALL Pre-Anguish BIS.
 
 ## Credits
 Initial anguish and DSK standalone scripts provided by Dlilah and ... from Verticordious.  
