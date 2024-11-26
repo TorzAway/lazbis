@@ -1,9 +1,13 @@
 # lazarus_bis
 Gotta collect em all
 
+## Notes
+Being maintained by Kroaking DaKnightsAway until such time as incorporated into  
+official LazBis by AQuietOne.
+
 ## Credits
 Initial anguish and DSK standalone scripts provided by Dlilah and ... from Verticordious.  
-Other lists provided by AQuientone, Dlilah and ...  
+Other lists provided by AQuietOne, Dlilah and ...  
 
 ## Installation
 
