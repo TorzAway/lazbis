@@ -3,25 +3,22 @@ TANK
 ['Clicky1'] = 'Band of Primordial Energy', -- Form of Defense II 			
 ['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
 ['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
-['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
-['Clicky5'] = 'Sparkling Bracer of the Jeweled Hero', -- Icicle Shield  ( WAR ONLY )
+['Clicky4'] = 'Sparkling Bracer of the Jeweled Hero', -- Icicle Shield  ( WAR ONLY )
 
 MELEE ( NOT BST + RNG )
 
 ['Clicky1'] = 'Veil of the Inferno', -- Form of Endurance II
 ['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
 ['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
-['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
-['Clicky5'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
+['Clicky4'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
 
 MELEE ( BST + RNG )
 
 ['Clicky1'] = 'Veil of the Inferno', -- Form of Endurance II
 ['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
 ['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
-['Clicky4'] = 'Loop of Endless Insanity', -- Trushar's Recovery
-['Clicky5'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
-['Clicky6'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
+['Clicky4'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
+['Clicky5'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
 
 PRIEST 
 
