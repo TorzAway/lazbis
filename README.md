@@ -1,19 +1,9 @@
 # lazarus_bis
 Gotta collect em all
 
-## Notes
---> IT IS A WORK IN PROGRESS <--
-
-Being maintained by Kroaking DaKnightsAway until such time as incorporated into  official LazBis by AQuietOne. 
-
-Main difference: 
-This version is a work in progress for Pre-Anguish BIS gear, augments, clickies on ALL CLASSES.
-
-* This cloned split will be updated to merge any future changes made to source lazbis by AQuietOne.
-
 ## Credits
 Initial anguish and DSK standalone scripts provided by Dlilah and ... from Verticordious.  
-Other lists provided by AQuietOne, Dlilah and ...  
+Other lists provided by myself, Dlilah and ...  
 
 ## Installation
 
