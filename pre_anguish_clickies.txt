@@ -18,7 +18,6 @@ MELEE ( BST + RNG )
 ['Clicky2'] = 'Cloak of Retribution', -- Vengeful Guard
 ['Clicky3'] = 'Ring of Organic Darkness',  -- Taelosian Guard
 ['Clicky4'] = 'Prismatic Ring of Resistance',  -- Eternal Ward
-['Clicky5'] = 'Earring of Pain Deliverance', -- Reyfin's Random Musings
 
 PRIEST 
 
