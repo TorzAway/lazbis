@@ -66,6 +66,7 @@ return {
 			['DSK1'] = 'Choker of Imprisoned Visions/28118',
 			['DSK2'] = 'Plagueborn Cape/27618/Warbeads of the Magus',
 			['DSK3'] = 'Earring of Dark Conflict/28115',
+			['Aug1'] = 'Blood-Polished Gemstone/47320',
 		},
 		['Berserker'] = {
 			['Chest'] = 'Wrathbringer\'s Chain Chestguard of the Vindicator/31706',
@@ -88,7 +89,7 @@ return {
 			['Ranged'] = 'Symbol of the Overlord/40814',
 			['DSK1'] = 'Shroud of Eternal Agony/28119',
 			['DSK2'] = 'Choker of Imprisoned Visions/28118',
-			['Aug1'] = 'Bone SHard of Wickedness/47322',
+			['Aug1'] = 'Bone Shard of Wickedness/47322',
 		},
 		['Beastlord'] = {
 			['Chest'] = 'Savagesoul Jerkin of the Wilds/32484',
@@ -113,6 +114,7 @@ return {
 			['DSK1'] = 'Belt of Contempt/28109',
 			['DSK2'] = 'Plagueborn Cape/27618/Warbeads of the Magus',
 			['DSK3'] = 'Earring of Dark Conflict/28115',
+			['Aug1'] = 'Blood-Polished Gemstone/47320',
 		},
 		['Cleric'] = {
 			['Chest'] = 'Faithbringer\'s Breastplate of Conviction/32251',
@@ -304,6 +306,7 @@ return {
 			['DSK4'] = 'Plagueborn Cape/Warbeads of the Magus/27618',
 			['DSK5'] = 'Stud of Chilling Precision/27623',
 			['DSK6'] = 'Symbol of the Overlord/40814',
+			['Aug1'] = 'Blood-Polished Gemstone/47320',
 		},
 		['Rogue'] = {
 			['Chest'] = 'Whispering Tunic of Shadows/31682',
@@ -400,6 +403,7 @@ return {
 			['DSK1'] = 'Shoulderpads of Warfare/28116',
 			['DSK2'] = 'Stud of Chilling Precision/27623',
 			['DSK3'] = 'Symbol of the Overlord/40814',
+			['Aug1'] = 'Blood-Polished Gemstone/47320',
 		},
 		['Wizard'] = {
 			['Chest'] = 'Academic\'s Robe of the Arcanists/32347',
