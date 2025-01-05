@@ -2595,7 +2595,7 @@ return {
 			['Clicky1'] = 'Veil of the Inferno/9435',
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
 		},
 		['Beastlord'] = {
 			['Arms'] = 'Sleeves of the Steadfast/47206',
@@ -2622,7 +2622,8 @@ return {
 			['Clicky1'] = 'Veil of the Inferno/9435',
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',		
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',	
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',				
 		},
 		['Cleric'] = {
 		 	['Arms'] = 'Armplates of Endless Fortitude/47204',
@@ -2676,7 +2677,8 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',		
 		},
 		['Enchanter'] = {
 			['Arms'] = 'UNKNOWN',
@@ -2703,6 +2705,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',		
 		},
 		['Magician'] = {
 			['Arms'] = 'UNKNOWN',
@@ -2728,7 +2731,8 @@ return {
 			['Charm'] = 'Fetish of Irreverent Knowledge/150112',
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
-			['Clicky3'] = 'Mantle of Corruption/69163',		
+			['Clicky3'] = 'Mantle of Corruption/69163',	
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 		},
 		['Monk'] = {
 			['Arms'] = 'Sleeves of the Steadfast/47206',
@@ -2755,7 +2759,8 @@ return {
 			['Clicky1'] = 'Veil of the Inferno/9435',
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',				
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',				
 		},
 		['Necromancer'] = {
 			['Arms'] = 'UNKNOWN',
@@ -2782,6 +2787,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 		},
 		['Paladin'] = {
 			['Arms'] = 'Armguards of Insidious Corruption/69168',
@@ -2962,9 +2968,9 @@ return {
 			['Aug2'] = 'Enchanted Orb of Defense/68019',
 			['Aug3'] = 'Glyphed Sandstone/68800',			
 			['Aug4'] = 'Blessed Shard/68667',
-			['Aug5'] = 'Experimental Gem of Enhanced Protection/68048',
-			['Aug6'] = 'Frosty Gem of Enhanced Protection/68107',			
-			['Aug7'] = 'Guardian\'s Stone of Enhanced Protection/68049',
+			['Aug5'] = 'Frosty Gem of Enhanced Protection/68107',						
+			['Aug6'] = 'Guardian\'s Stone of Enhanced Protection/68049',
+			['Aug7'] = 'Experimental Gem of Enhanced Protection/68048',
 			['Aug8'] = 'Yenner\'s Rock of Enhanced Protection/68047',
 		},
 		['Wizard'] = {
@@ -2992,6 +2998,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 		},
 		['Main'] = {
 			['Slots'] = {
