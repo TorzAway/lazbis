@@ -2930,9 +2930,9 @@ return {
 			['Finger1'] = 'Ring of the Serpent/69160',
 			['Finger2'] = 'Ring of Ire Intent/47240',
 			['Face'] = 'Xxeric\'s Matted-Fur Mask/69132',
-			['Shoulder'] = 'Mantle of Corruption/69163',
+			['Shoulder'] = 'Mantle of Corruption/69163',			
 			['Mainhand'] = 'Crafted Talisman of Fates/57400',
-			['Secondary'] = 'Bulwark of Lost Souls/69155',
+			['Secondary'] = 'Aegis of Discord/69048',
 			['Range'] = 'Tome of New Beginnings/67606',
 			['Charm'] = 'Fetish of Irreverent Knowledge/150112',
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
@@ -3523,8 +3523,8 @@ return {
 	['Links'] = {
 		{label='Project Lazarus Wiki', url='https://www.lazaruseq.com/Wiki/index.php/Main_Page'},
 		{label='Allaclone', url='https://www.lazaruseq.com/Alla/'},
-		{label='Lazarus BIS GitHub', url='https://www.github.com/aquietone/lazbis'},
-		{label='Discord', url='https://discord.com/channels/548643730714918913/1274138262063157289'}
+		{label='Lazarus BIS GitHub', url='https://github.com/TorzAway/lazbis'},
+		{label='Discord', url='https://discord.com/channels/1179877335063875634/1191882853412257892'}
 	},
 	['Info'] = {
 		{
