@@ -2933,7 +2933,7 @@ return {
 			['Shoulder'] = 'Mantle of Corruption/69163',			
 			['Charm'] = 'Fetish of Irreverent Knowledge/150112',
 			['MainHand'] = 'Crafted Talisman of Fates/57400',
-			['Secondary'] = 'Aegis of Discord/69048',
+			['Secondary'] = 'Blackstone Figurine/69051',
 			['Range'] = 'Tome of New Beginnings/67606',
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
