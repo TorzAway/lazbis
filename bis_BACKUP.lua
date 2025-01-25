@@ -138,6 +138,7 @@ return {
 			['Ranged'] = 'Globe of Voltage/28111',
 			['DSK1'] = 'Shroud of the Subjugated Kuuan',
 			['DSK2'] = 'Aegis of the Dragorn Elders/28114',
+			['DSK3'] = 'Ring of Persecution/47290',
 		},
 		['Druid'] = {
 			['Chest'] = 'Everspring Jerkin of the Tangled Briars/32264',
@@ -379,6 +380,7 @@ return {
 			['DSK1'] = 'Shroud of Eternal Agony/28119',
 			['DSK2'] = 'Shroud of the Subjugated Kuuan',
 			['DSK3'] = 'Belt of the Stagnant/28112',
+			['DSK4'] = 'Ring of Persecution/47290',
 		},
 		['Warrior'] = {
 			['Chest'] = 'Gladiator\'s Plate Chestguard of War/31669',
