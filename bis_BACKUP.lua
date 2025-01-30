@@ -231,6 +231,7 @@ return {
 			['Secondary'] = 'Flayed Flesh Handwraps',
 			['Ranged'] = 'Symbol of the Overlord/40814',
 			['Aug1'] = 'Blood-Polished Gemstone/47320',
+			['Aug2'] = 'Bone Shard of Wickedness/47322',
 			
 		},
 		['Necromancer'] = {
@@ -280,6 +281,7 @@ return {
 			['DSK1'] = 'Shoulderpads of Warfare/28116',
 			['DSK2'] = 'Golem Stone Face Guard/28117',
 			['DSK3'] = 'Symbol of the Overlord/40814',
+			['Aug1'] = 'Bone Shard of Wickedness/47322',
 		},
 		['Ranger'] = {
 			['Chest'] = 'Bladewhisper Chain Vest of Journeys/32480',
@@ -308,6 +310,7 @@ return {
 			['DSK5'] = 'Stud of Chilling Precision/27623',
 			['DSK6'] = 'Symbol of the Overlord/40814',
 			['Aug1'] = 'Blood-Polished Gemstone/47320',
+			['Aug2'] = 'Bone Shard of Wickedness/47322',
 		},
 		['Rogue'] = {
 			['Chest'] = 'Whispering Tunic of Shadows/31682',
@@ -356,6 +359,7 @@ return {
 			['DSK2'] = 'Golem Stone Face Guard/28117',
 			['DSK3'] = 'Ring of Disdain/28110',
 			['DSK4'] = 'Symbol of the Overlord/40814',
+			['Aug1'] = 'Bone Shard of Wickedness/47322',			
 		},
 		['Shaman'] = {
 			['Chest'] = 'Ritualchanter\'s Tunic of the Ancestors/32261',
@@ -406,6 +410,7 @@ return {
 			['DSK2'] = 'Stud of Chilling Precision/27623',
 			['DSK3'] = 'Symbol of the Overlord/40814',
 			['Aug1'] = 'Blood-Polished Gemstone/47320',
+			['Aug2'] = 'Bone Shard of Wickedness/47322',
 		},
 		['Wizard'] = {
 			['Chest'] = 'Academic\'s Robe of the Arcanists/32347',
@@ -436,7 +441,7 @@ return {
 				{Name='Visibles', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrists',}},
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist',}},
 				{Name='Weapons', Slots={'MainHand','Secondary','Ranged','Charm'}},
-				{Name='DPS Augs', Slots={'Aug1'}},
+				{Name='DPS Augs', Slots={'Aug1','Aug2'}},
 				{Name='DSK Focus', Slots={'DSK1','DSK2','DSK3','DSK4','DSK5'}},
 			},
 		},
