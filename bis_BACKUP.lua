@@ -1902,7 +1902,7 @@ return {
 			['Stone of Greatness'] = 'Stone of Greatness',
 			['Deep Emerald Stone'] = 'Deep Emerald Stone',
 			['Radiant Geode'] = 'Radiant Geode',
-			['Mallet of the Marauder'] = 'Mallet of the Marauder',
+			['Mallet of the Marauder'] = 'Mallet of the Marauder',			
 		},
 		['Berserker'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2064,7 +2064,7 @@ return {
 			['Ancient Gnawbone'] = 'Ancient Gnawbone',
 			['Malevolent Effigy'] = 'Malevolent Effigy',
 			['Vapor of Vitality'] = 'Vapor of Vitality',
-			['Staff of the Subjugator'] = 'Staff of the Subjugator',
+			['Staff of the Subjugator'] = 'Staff of the Subjugator',	
 		},
 		['Paladin'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2089,7 +2089,7 @@ return {
 			['Vapor of Vitality'] = 'Vapor of Vitality',
 			['Experimental Device'] = 'Experimental Device',
 			['Corundum Infused Granite'] = 'Corundum Infused Granite',
-			['Lance of the Legionnaire'] = 'Lance of the Legionnaire',
+			['Lance of the Legionnaire'] = 'Lance of the Legionnaire',		
 		},
 		['Ranger'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2113,7 +2113,7 @@ return {
 			['Malevolent Effigy'] = 'Malevolent Effigy',
 			['Vapor of Vitality'] = 'Vapor of Vitality',
 			['Bludgeon of the Brute'] = 'Bludgeon of the Brute',
-			['Mallet of the Marauder'] = 'Mallet of the Marauder',
+			['Mallet of the Marauder'] = 'Mallet of the Marauder',			
 		},
 		['Rogue'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2134,7 +2134,7 @@ return {
 			['Stone of Greatness'] = 'Stone of Greatness',
 			['Deep Emerald Stone'] = 'Deep Emerald Stone',
 			['Radiant Geode'] = 'Radiant Geode',
-			['Mallet of the Marauder'] = 'Mallet of the Marauder',
+			['Mallet of the Marauder'] = 'Mallet of the Marauder',			
 		},
 		['Shadow Knight'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2159,7 +2159,7 @@ return {
 			['Vapor of Vitality'] = 'Vapor of Vitality',
 			['Experimental Device'] = 'Experimental Device',
 			['Corundum Infused Granite'] = 'Corundum Infused Granite',
-			['Lance of the Legionnaire'] = 'Lance of the Legionnaire',
+			['Lance of the Legionnaire'] = 'Lance of the Legionnaire',		
 		},
 		['Shaman'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2178,7 +2178,7 @@ return {
 			['Ancient Gnawbone'] = 'Ancient Gnawbone',
 			['Malevolent Effigy'] = 'Malevolent Effigy',
 			['Vapor of Vitality'] = 'Vapor of Vitality',
-			['Staff of the Subjugator'] = 'Staff of the Subjugator',
+			['Staff of the Subjugator'] = 'Staff of the Subjugator',		
 		},
 		['Warrior'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2202,7 +2202,7 @@ return {
 			['Experimental Device'] = 'Experimental Device',
 			['Corundum Infused Granite'] = 'Corundum Infused Granite',
 			['Bludgeon of the Brute'] = 'Bludgeon of the Brute',
-			['Mallet of the Marauder'] = 'Mallet of the Marauder',
+			['Mallet of the Marauder'] = 'Mallet of the Marauder',		
 		},
 		['Wizard'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2221,27 +2221,29 @@ return {
 			['Ancient Gnawbone'] = 'Ancient Gnawbone',
 			['Malevolent Effigy'] = 'Malevolent Effigy',
 			['Vapor of Vitality'] = 'Vapor of Vitality',
-			['Staff of the Subjugator'] = 'Staff of the Subjugator',
+			['Staff of the Subjugator'] = 'Staff of the Subjugator',		
 		},
 		['Template'] = {
-			['Rallosian Power Gem'] = 'Rallosian Power Gem',
-			['Imbued Feather'] = 'Imbued Feather',
-			['Authentic Treasure Map'] = 'Authentic Treasure Map',
-			['Shard of True Power'] = 'Shard of True Power',
-			['Shard of Phosphorescent Power'] = 'Shard of Phosphorescent Power',
-			['Authentic Treasure Map'] = 'Authentic Treasure Map',
-			['Creepy Bone Chips'] = 'Creepy Bone Chips',
-			['Lucent Crystal'] = 'Lucent Crystal',
-			['Brilliant Geode'] = 'Brilliant Geode',
-			['Luminescent Geode Cluster'] = 'Luminescent Geode Cluster',
-			['Honed Geode Cluster'] = 'Honed Geode Cluster',
-			['Hardened Bone Shard'] = 'Hardened Bone Shard',
-			['Resilient Sphere'] = 'Resilient Sphere',
 			['Ancient Gnawbone'] = 'Ancient Gnawbone',
+			['Authentic Treasure Map'] = 'Authentic Treasure Map',
+			['Authentic Treasure Map'] = 'Authentic Treasure Map',
+			['Brilliant Geode'] = 'Brilliant Geode',
+			['Corrupted Netherstone'] = 'Corrupted Netherstone',
+			['Creepy Bone Chips'] = 'Creepy Bone Chips',
+			['Hardened Bone Shard'] = 'Hardened Bone Shard',
+			['Honed Geode Cluster'] = 'Honed Geode Cluster',
+			['Imbued Feather'] = 'Imbued Feather',
+			['Lucent Crystal'] = 'Lucent Crystal',
+			['Luminescent Geode Cluster'] = 'Luminescent Geode Cluster',
+			['Rallosian Power Gem'] = 'Rallosian Power Gem',
+			['Resilient Sphere'] = 'Resilient Sphere',
+			['Shard of Phosphorescent Power'] = 'Shard of Phosphorescent Power',
+			['Shard of True Power'] = 'Shard of True Power',
+
 		},
 		['Main'] = {
 			['Slots'] = {
-				{Name='Augs/Items', Slots={'Rallosian Power Gem','Imbued Feather','Authentic Treasure Map','Shard of True Power','Shard of Phosphorescent Power','Authentic Treasure Map','Creepy Bone Chips','Lucent Crystal','Brilliant Geode','Luminescent Geode Cluster','Honed Geode Cluster','Hardened Bone Shard','Resilient Sphere','Ancient Gnawbone','Asp\'s Fang','Stone of Greatness','Deep Emerald Stone','Radiant Geode','Malevolent Effigy','Vapor of Vitality','Staff of the Subjugator','Bludgeon of the Brute','Mallet of the Marauder','Lance of the Legionnaire','Experimental Device','Corundum Infused Granite'}},
+				{Name='Augs/Items', Slots={'Ancient Gnawbone','Asp\'s Fang','Authentic Treasure Map','Authentic Treasure Map','Bludgeon of the Brute','Brilliant Geode','Corrupted Netherstone','Corundum Infused Granite','Creepy Bone Chips','Deep Emerald Stone','Experimental Device','Hardened Bone Shard','Honed Geode Cluster','Imbued Feather','Lance of the Legionnaire','Lucent Crystal','Luminescent Geode Cluster','Malevolent Effigy','Mallet of the Marauder','Radiant Geode','Rallosian Power Gem','Resilient Sphere','Shard of Phosphorescent Power','Shard of True Power','Staff of the Subjugator','Stone of Greatness','Vapor of Vitality',}},
 			}
 		}
 	},
