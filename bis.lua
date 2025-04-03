@@ -2631,7 +2631,8 @@ return {
 			['Clicky1'] = 'Veil of the Inferno/9435',
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',				
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
 		},
 		['Berserker'] = {
 			['Arms'] = 'Crystal Mail Sleeves/70711',
@@ -2659,6 +2660,8 @@ return {
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
+			['PoPAug2'] = 'Focus Rune of Furious Assault/150030',
 		},
 		['Beastlord'] = {
 			['Arms'] = 'Sleeves of the Steadfast/47206',
@@ -2686,7 +2689,8 @@ return {
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',	
-			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',				
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
 		},
 		['Cleric'] = {
 		 	['Arms'] = 'Armplates of Endless Fortitude/47204',
@@ -2713,7 +2717,8 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',		
+			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
 		},
 		['Druid'] = {
 			['Arms'] = 'Sleeves of the Steadfast/47206',
@@ -2742,7 +2747,12 @@ return {
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
-			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',		
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['PoPAug1'] = 'Volatile Planar Rune/150033',
+			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
+			['GoDAug2'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug3'] = 'Focus Shard of Destruction/150047',
+			['GoDAug4'] = 'Volatile Discordian Rune/150040',
 		},
 		['Enchanter'] = {
 			['Arms'] = 'Sleeves of Malefic Rapture/69176',
@@ -2769,7 +2779,11 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
-			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',		
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['PoPAug1'] = 'Volatile Planar Rune/150033',
+			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug2'] = 'Focus Shard of Destruction/150047',
+			['GoDAug3'] = 'Volatile Discordian Rune/150040',
 		},
 		['Magician'] = {
 			['Arms'] = 'Sleeves of Malefic Rapture/69176',
@@ -2798,6 +2812,10 @@ return {
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['PoPAug1'] = 'Volatile Planar Rune/150033',
+			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug2'] = 'Focus Shard of Destruction/150047',
+			['GoDAug3'] = 'Volatile Discordian Rune/150040',			
 		},
 		['Monk'] = {
 			['Arms'] = 'Sleeves of the Steadfast/47206',
@@ -2825,7 +2843,9 @@ return {
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
-			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',				
+			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
+			['PoPAug2'] = 'Focus Rune of Dexterous Striking/150031',
 		},
 		['Necromancer'] = {
 			['Arms'] = 'Sleeves of Malefic Rapture/69176',
@@ -2853,6 +2873,9 @@ return {
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug2'] = 'Focus Shard of Destruction/150047',
+			['GoDAug3'] = 'Volatile Discordian Rune/150040',			
 		},
 		['Paladin'] = {
 			['Arms'] = 'Armguards of Insidious Corruption/69168',
@@ -2887,6 +2910,7 @@ return {
 			['Aug6'] = 'Frosty Gem of Enhanced Protection/68107',			
 			['Aug7'] = 'Guardian\'s Stone of Enhanced Protection/68049',
 			['Aug8'] = 'Yenner\'s Rock of Enhanced Protection/68047',
+			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
 		},
 		['Ranger'] = {
 			['Arms'] = 'Crystal Mail Sleeves/70711',
@@ -2913,7 +2937,11 @@ return {
 			['Clicky1'] = 'Veil of the Inferno/9435',
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',				
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
+			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug2'] = 'Focus Shard of Destruction/150047',
+			['GoDAug3'] = 'Volatile Discordian Rune/150040',			
 		},
 		['Rogue'] = {
 			['Arms'] = 'Crystal Mail Sleeves/70711',
@@ -2940,7 +2968,9 @@ return {
 			['Clicky1'] = 'Veil of the Inferno/9435',
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',		
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',	
+			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
+			['PoPAug2'] = 'Focus Rune of Foul Play/150029',
 		},
 		['Shadow Knight'] = {
 			['Arms'] = 'Armguards of Insidious Corruption/69168',
@@ -2975,6 +3005,7 @@ return {
 			['Aug6'] = 'Frosty Gem of Enhanced Protection/68107',			
 			['Aug7'] = 'Guardian\'s Stone of Enhanced Protection/68049',
 			['Aug8'] = 'Yenner\'s Rock of Enhanced Protection/68047',
+			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
 		},
 		['Shaman'] = {
 			['Arms'] = 'Vambraces of Perseverance/70711',
@@ -3001,7 +3032,11 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',			
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',	
+			['GoDAug2'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug3'] = 'Focus Shard of Destruction/150047',
+			['GoDAug4'] = 'Volatile Discordian Rune/150040',			
 		},
 		['Warrior'] = {
 			['Arms'] = 'Armguards of Insidious Corruption/69168',
@@ -3037,6 +3072,7 @@ return {
 			['Aug6'] = 'Guardian\'s Stone of Enhanced Protection/68049',
 			['Aug7'] = 'Experimental Gem of Enhanced Protection/68048',
 			['Aug8'] = 'Yenner\'s Rock of Enhanced Protection/68047',
+			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
 		},
 		['Wizard'] = {
 			['Arms'] = 'Sleeves of Malefic Rapture/69176',
@@ -3064,6 +3100,10 @@ return {
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
+			['PoPAug1'] = 'Volatile Planar Rune/150033',
+			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
+			['GoDAug2'] = 'Focus Shard of Destruction/150047',
+			['GoDAug3'] = 'Volatile Discordian Rune/150040',			
 		},
 		['Main'] = {
 			['Slots'] = {
@@ -3071,7 +3111,9 @@ return {
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist'}},
 				{Name='Weapons', Slots={'MainHand','Secondary','Range','Charm'}},				
 				{Name='Clickies', Slots={'Clicky1','Clicky2','Clicky3','Clicky4'}},
-				{Name='Augments', Slots={'Aug1','Aug2','Aug3','Aug4','Aug5','Aug6','Aug7','Aug8'}}
+				{Name='Augments', Slots={'Aug1','Aug2','Aug3','Aug4','Aug5','Aug6','Aug7','Aug8'}},
+				{Name='PoP_Slot(3)', Slots={'PoPAug1','PoPAug2'}},
+				{Name='GoD_Slot(3)', Slots={'GoDAug1','GoDAug2','GoDAug3','GoDAug-4'}}
 			}
 		},
 		['Template'] = {},
