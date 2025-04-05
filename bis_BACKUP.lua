@@ -3113,7 +3113,7 @@ return {
 				{Name='Clickies', Slots={'Clicky1','Clicky2','Clicky3','Clicky4'}},
 				{Name='Augments', Slots={'Aug1','Aug2','Aug3','Aug4','Aug5','Aug6','Aug7','Aug8'}},
 				{Name='PoP_Slot(3)', Slots={'PoPAug1','PoPAug2'}},
-				{Name='GoD_Slot(3)', Slots={'GoDAug1','GoDAug2','GoDAug3','GoDAug-4'}}
+				{Name='GoD_Slot(3)', Slots={'GoDAug1','GoDAug2','GoDAug3','GoDAug4'}}
 			}
 		},
 		['Template'] = {},
