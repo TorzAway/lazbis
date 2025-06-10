@@ -4,7 +4,7 @@ aquietone, dlilah, ...
 
 Tracker lua script for all the good stuff to have on Project Lazarus server.
 ]]
-local meta          = {version = '2.7.1(b)[WanteD]', name = string.match(string.gsub(debug.getinfo(1, 'S').short_src, '\\init.lua', ''), "[^\\]+$")}
+local meta          = {version = '3.1.5[WanteD]', name = string.match(string.gsub(debug.getinfo(1, 'S').short_src, '\\init.lua', ''), "[^\\]+$")}
 local mq            = require('mq')
 local ImGui         = require('ImGui')
 local bisConfig     = require('bis')
@@ -523,10 +523,12 @@ local function slotRow(slot, tmpGear)
                         end
                     else
                         local lootDropper = color[2] == 0 and bisConfig.LootDroppers[actualName]
-                        ImGui.Text('%s%s', itemName, lootDropper and ' ('..lootDropper..')' or '')
+						local resolvedInvSlot = tmpGear[char.Name][realSlot].location or resolveInvSlot(invslot)
+                        --ImGui.Text('%s%s', itemName, lootDropper and ' ('..lootDropper..')' or '')
+						ImGui.Text('%s%s%s', itemName, settings.ShowSlots and resolvedInvSlot or '', lootDropper and ' ('..lootDropper..')' or '')
                         ImGui.PopStyleColor()
                         if ImGui.IsItemHovered() then
-                            local resolvedInvSlot = tmpGear[char.Name][realSlot].location or resolveInvSlot(invslot)
+                            --local resolvedInvSlot = tmpGear[char.Name][realSlot].location or resolveInvSlot(invslot)
                             ImGui.BeginTooltip()
                             ImGui.Text('Found ') ImGui.SameLine() ImGui.TextColored(0,1,0,1,'%s', actualName) ImGui.SameLine() ImGui.Text('in slot %s', resolvedInvSlot)
                             ImGui.EndTooltip()
