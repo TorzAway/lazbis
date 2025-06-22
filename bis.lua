@@ -445,8 +445,7 @@ return {
 				{Name='Mini Augs', Slots={'MiniAug1','MiniAug2','MiniAug3','MiniAug4','MiniAug5','MiniAug6','MiniAug7','MiniAug8','MiniAug9','MiniAug10','MiniAug11'}},
 				{Name='Visibles', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrists',}},
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist',}},
-				{Name='Weapons', Slots={'MainHand','Secondary','Ranged','Charm'}},
-				{Name='DPS Augs', Slots={'Aug1','Aug2'}},
+				{Name='Weapons', Slots={'Offhand(War)','MainHand','Secondary','Ranged','Charm','Aug1','Aug2','Aug3(Pally)','Aug4(SK)','Mask'}},
 				{Name='DSK Focus', Slots={'DSK1','DSK2','DSK3','DSK4','DSK5'}},
 			},
 		},
@@ -639,7 +638,6 @@ return {
 			['Face'] = 'Bandana of Brazen Banditry',
 			['Waist'] = 'Shabby Crimson Sash',
 			['Secondary'] = 'Shimmer of Strife',
-			['MainHand'] = 'Grim Silhouette',
 			['Ranged'] = 'Lightstone of the Ruined Lands',
 			['RangedAug'] = 'Rat Ears',
 			['Aug1'] = 'Hideous Hex of Benevolent Extension',
@@ -1238,6 +1236,7 @@ return {
 			['Frenzied Ghoul (GukBottom)'] = 'Little Finger Metacarpal/33175/33170/33171',
 			['Tier 5 Complete'] = 'Jonas Dagmire\'s Skeletal Little Finger/33170/33171',
 			['Middle Finger (Mayong)'] = 'Jonas Dagmire\'s Skeletal Middle Finger/33171',
+			['Tier 6 Complete'] = 'Jonas Dagmire\'s Skeletal Hand',
 		},
 		['Main'] = {
 			['Slots'] = {
@@ -1246,7 +1245,7 @@ return {
 				{Name='Tier 3', Slots={'Tier 3 Complete','Rosch Var\'L\'Vlor (SK)','Lord Gimblox (SolA)','Skeleton Lrodd (Befallen)','Spectres (Oasis)'}},
 				{Name='Tier 4', Slots={'Tier 4 Complete','Gorillas (CT)','Ambassador Dvinn (CB)','Froglok Shin Lord (GukTop)','Death Beetles (Unrest)'}},
 				{Name='Tier 5', Slots={'Tier 5 Complete','Ground Spawn (Mistmoore)','Slizik The Mighty (Hole)','Ground Spawn (SplitPaw)','Frenzied Ghoul (GukBottom)'}},
-				{Name='Final', Slots={'Middle Finger (Mayong)'}},
+				{Name='Tier 6 (Final)', Slots={'Tier 6 Complete','Middle Finger (Mayong)',}},
 			},
 		},
 		['ShowBaseItemNames'] = {['ALL']=1},
@@ -1556,6 +1555,7 @@ return {
 			['Ageless Enmity'] = 'Rancorous Mantle of Ill Omen',
 			['Rally'] = 'Vigilant Tu\'Nakk Parryblade',
 			['Warlord\'s Bravery'] = 'Obstinate Kunzar Deathguard Shield',
+			['Feral Swipe'] = 'Cunning Razor-edged Claw',
 		},
 		['Wizard'] = {
 			['Glyphed Sarnak Skull'] = 'Glyphed Sarnak Skull/40854',
@@ -2225,6 +2225,7 @@ return {
 			['Corundum Infused Granite'] = 'Corundum Infused Granite',
 			['Lance of the Legionnaire'] = 'Lance of the Legionnaire',
 			['Shrunken Gnoll Head'] = 'Shrunken Gnoll Head',
+			['Void Rune of Sacrifice'] = 'Void Rune of Sacrifice',
 		},
 		['Ranger'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2301,6 +2302,7 @@ return {
 			['Corundum Infused Granite'] = 'Corundum Infused Granite',
 			['Lance of the Legionnaire'] = 'Lance of the Legionnaire',
 			['Shrunken Gnoll Head'] = 'Shrunken Gnoll Head',
+			['Void Rune of Sacrifice'] = 'Void Rune of Sacrifice',
 		},
 		['Shaman'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2348,6 +2350,7 @@ return {
 			['Bludgeon of the Brute'] = 'Bludgeon of the Brute',
 			['Mallet of the Marauder'] = 'Mallet of the Marauder',
 			['Shrunken Gnoll Head'] = 'Shrunken Gnoll Head',
+			['Void Rune of Sacrifice'] = 'Void Rune of Sacrifice',
 		},
 		['Wizard'] = {
 			['Rallosian Power Gem'] = 'Rallosian Power Gem',
@@ -2388,7 +2391,7 @@ return {
 		},
 		['Main'] = {
 			['Slots'] = {
-				{Name='Augs/Items', Slots={'Ancient Gnawbone','Asp\'s Fang','Authentic Treasure Map','Bludgeon of the Brute','Brilliant Geode','Corrupted Netherstone','Corundum Infused Granite','Creepy Bone Chips','Deep Emerald Stone','Experimental Device','Hardened Bone Shard','Honed Geode Cluster','Imbued Feather','Lance of the Legionnaire','Lucent Crystal','Luminescent Geode Cluster','Malevolent Effigy','Mallet of the Marauder','Radiant Geode','Rallosian Power Gem','Resilient Sphere','Shard of Phosphorescent Power','Shard of True Power','Shrunken Gnoll Head','Staff of the Subjugator','Stone of Greatness','Vapor of Vitality',}},
+				{Name='Augs/Items', Slots={'Ancient Gnawbone','Asp\'s Fang','Authentic Treasure Map','Bludgeon of the Brute','Brilliant Geode','Corrupted Netherstone','Corundum Infused Granite','Creepy Bone Chips','Deep Emerald Stone','Experimental Device','Hardened Bone Shard','Honed Geode Cluster','Imbued Feather','Lance of the Legionnaire','Lucent Crystal','Luminescent Geode Cluster','Malevolent Effigy','Mallet of the Marauder','Radiant Geode','Rallosian Power Gem','Resilient Sphere','Shard of Phosphorescent Power','Shard of True Power','Shrunken Gnoll Head','Staff of the Subjugator','Stone of Greatness','Vapor of Vitality','Void Rune of Sacrifice',}},
 			}
 		}
 	},
@@ -2509,16 +2512,13 @@ return {
 			['IncarnateEvasion'] = 'Incarnate Umbra of Evasion/151032',
 			['IncarnateFerocity'] = 'Incarnate Umbra of Ferocity/151033',
 			['TranquilSoul'] = 'The Tranquil Soul/17712',
-			['OtherworldlySoul'] = 'Otherworldly Soul',
 			['Tongue'] = 'Tongue of Unspoken Sins/150979',
-			['BellikosDoll'] = 'Living Bellikos Doll - Tranquility',
 		},
 		['Main'] = {
 			['Slots'] = {
 				{Name='Arcane', Slots={'ArcaneDestruction','ArcaneMending','ArcanePersistence','ArcaneSuffering'}},
 				{Name='Incarnate', Slots={'IncarnateCleaving','IncarnateDeflection','IncarnateEvasion','IncarnateFerocity'}},
-				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
-				{Name='Other', Slots={'TranquilSoul','OtherworldlySoul','Tongue','FrozenOre','Shattered Gnoll Slayer','Tarnished Skeleton Key','Graverobber\'s Icon','Battered Smuggler\'s Barrel'}},
+				{Name='Other', Slots={'TranquilSoul','Tongue','FrozenOre','Shattered Gnoll Slayer','Tarnished Skeleton Key','Graverobber\'s Icon','Battered Smuggler\'s Barrel'}},
 				{Name='Clickies', Slots={'EyeMight','EyeComprehension','Crystalized','Minion\'s'}}
 			}
 		}
@@ -2651,10 +2651,10 @@ return {
 			['Precision(Accuracy)'] = 'Discordian Alloy of Precision',
 			['Rapidity(Attack)'] = 'Discordian Alloy of Rapidity',
 			['Annihilation(Spell Damage)'] = 'Focus Shard of Aggregate Annihilation',
-			['Lucky Copper/Silver'] = 'Lucky Copper/Lucky Silver',
-			['Lucky Grass'] = 'Lucky Grass Trinket',
+			['Lucky Copper/Silver'] = 'Lucky Copper/Lucky Silver/151042/151043',
+			['Lucky Grass'] = 'Lucky Grass Trinket/151044',
 			['Oculous'] = 'Illuminious Oculus/150980',
-			['Mount'] = 'Whirligig Flyer Control Device/Ornate Flying Carpet/39635',
+			['Mount'] = 'Whirligig Flyer Control Device/Ornate Flying Carpet/39635/39632',
 			['DarkArachnids'] = 'Visage of the Dark Arachnids',
 			['Lucky Horseshoe'] = 'Luckiest of Horseshoes/150978',
 			['War Bear Saddle(Or any other AC Mount)'] = 'War Bear Saddle/39635',
@@ -2992,24 +2992,29 @@ return {
 	},
 	['questitems'] = {
 		['Bard'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['ImbuedRune'] = 'Imbued Rune of Echoes',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Berserker'] = {
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Overpowering Frenzy',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Beastlord'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['ImbuedRune'] = 'Imbued Rune of Mikkily\'s Healing',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Cleric'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Vie',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
@@ -3017,6 +3022,7 @@ return {
 			['Veeshan Clicky'] = 'Aged Shissar Apothic Staff',
 		},
 		['Druid'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of the Immolating Sun',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
@@ -3024,6 +3030,7 @@ return {
 			['Veeshan Clicky'] = 'Aged Dragon Spine Staff',
 		},
 		['Enchanter'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Tashan\'s Echo',
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
@@ -3031,6 +3038,7 @@ return {
 			['Veeshan Clicky'] = 'Aged Shissar Focus Staff',
 		},
 		['Magician'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Jerikor\'s Renewal',
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
@@ -3038,12 +3046,15 @@ return {
 			['Veeshan Clicky'] = 'Aged Sarnak Channeler Staff',
 		},
 		['Monk'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Dragon Fang',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Necromancer'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Dark Salve',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
@@ -3051,29 +3062,40 @@ return {
 			['Veeshan Clicky'] = 'Aged Shissar Deathspeaker Staff',
 		},
 		['Paladin'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['BellikosTear'] = 'Hardened Tear of the Bellikos',
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Piety',
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Ranger'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Jolting Snapkicks',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 		},
 		['Rogue'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['ImbuedRune'] = 'Imbued Rune of Assault',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Shadow Knight'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['BellikosTear'] = 'Hardened Tear of the Bellikos',
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Agony and Hate',
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Shaman'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of the Panther',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
@@ -3081,12 +3103,16 @@ return {
 			['Veeshan Clicky'] = 'Aged Hammer of the Dragonborn',
 		},
 		['Warrior'] = {
+			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['BellikosTear'] = 'Hardened Tear of the Bellikos',
+			['BellikosFang'] = 'Fragmented Bellikos Fang',
 			['ImbuedRune'] = 'Imbued Rune of Brutal Onslaught',
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
 		},
 		['Wizard'] = {
+			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Mana Weave',
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
@@ -3108,7 +3134,9 @@ return {
 			['Horseshoe'] = '9 Spheres of Ascension',
 			['Tongue'] = '9 Realms of Transition',
 			['Eyes'] = '9 Eyes of the Ghost',
-			['Keepsakes Instance'] = 'Symbol of Uhl\'Zaroth',
+			['Symbol'] = 'Symbol of Uhl\'Zaroth',
+			['Lucky Grass Trinket'] = 'Woven Fetish of the Trine Sentinel',
+			['Lucky Copper/Silver'] = 'Tarnished Coin of the Triad Oath/Blackened Tithe of the Triumvirate',
 			['Destruction'] = 'Hexed Umbra of Destruction',
 			['Mending'] = 'Hexed Umbra of Mending',
 			['Persistence'] = 'Hexed Umbra of Persistence',
@@ -3117,12 +3145,17 @@ return {
 			['Deflection'] = 'Hexed Umbra of Deflection',
 			['Evasion'] = 'Hexed Umbra of Evasion',
 			['Ferocity'] = 'Hexed Umbra of Ferocity',
+			['OtherworldlySoul'] = 'Otherworldly Soul',
+			['BellikosDoll'] = 'Living Bellikos Doll - Tranquility',
 		},
 		['Main'] = {
 			['Slots'] = {
-				{Name='Augs', Slots={'Eyes','Tongue','Idol','Oculus','Horseshoe','BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer','Keepsakes Instance'}},
-				{Name='Upgraded Umbras', Slots={'Destruction','Mending','Persistance','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
-				{Name='Gear', Slots={'EOC','Radix'}},
+				{Name='Power of 3 (HS)', Slots={'Lucky Grass Trinket','Lucky Copper/Silver'}},
+				{Name='Power of 6 (Keepsakes)', Slots={'Symbol','Destruction','Mending','Persistence','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
+				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},
+				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
+				{Name='Powersource', Slots={'EOC','Radix','OtherworldlySoul'}},
+				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
 				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky'}},
 				{Name='Food/Drink', Slots={'Food','Drink'}}
 			}
@@ -4350,7 +4383,7 @@ Stout Key - Tank 2H Burn Clicky]],
 		['Shoulderpads of Warfare'] = 'Hanvar',
 		['Shroud of Eternal Agony'] = 'OMM',
 		['Shroud of the Subjugated Kuuan'] = 'Keldovan',
-		['Sorrowmourn Stone'] = 'Jelvan',
+		['Sorrowmourn Gemstone'] = 'Jelvan',
 		['Stud of Chilling Precision'] = 'Keldovan',
 		['Symbol of the Overlord'] = 'OMM',
 		['Totem of the Chimera'] = 'Hanvar',
