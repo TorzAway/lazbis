@@ -305,7 +305,7 @@ return {
 			['Ear2'] = 'Hanvar\'s Hoop',
 			['Finger1'] = 'Ring of the Beast/28113',
 			['Finger2'] = 'Rigid Ring of Prowess/28120',
-			['MainHand'] = 'Aged Left Eye of Xygoz',
+			['MainHand'] = 'Notched Blade of Bloodletting/47312',
 			['Secondary'] = 'Shield of the Planar Assassin',
 			['Ranged'] = 'Aurora, the Heartwood Bow/Globe of Discordant Energy/40863',
 			['DSK1'] = 'Shroud of Eternal Agony/28119',
