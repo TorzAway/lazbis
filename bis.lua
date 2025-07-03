@@ -66,7 +66,7 @@ return {
 			['Finger1'] = 'Ring of the Beast/28113',
 			['Finger2'] = 'Rigid Ring of Prowess/28120',
 			['MainHand'] = 'Blade of Vesagran/Globe of Discordant Energy/40864',
-			['Secondary'] = 'Mace of Tortured Nightmares',
+			['Secondary'] = 'Mace of Tortured Nightmares/47313',
 			['Ranged'] = 'Totem of the Chimera/28361',
 			['DSK1'] = 'Choker of Imprisoned Visions/28118',
 			['DSK2'] = 'Plagueborn Cape/27618/Warbeads of the Magus',
