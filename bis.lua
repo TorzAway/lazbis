@@ -305,7 +305,7 @@ return {
 			['Ear2'] = 'Hanvar\'s Hoop',
 			['Finger1'] = 'Ring of the Beast/28113',
 			['Finger2'] = 'Rigid Ring of Prowess/28120',
-			['MainHand'] = 'Girplan Hammer of Carnage/47321',
+			['MainHand'] = 'Hammer of Rancorous Thoughts/47314',
 			['Secondary'] = 'Shield of the Planar Assassin',
 			['Ranged'] = 'Aurora, the Heartwood Bow/Globe of Discordant Energy/40863',
 			['DSK1'] = 'Shroud of Eternal Agony/28119',
