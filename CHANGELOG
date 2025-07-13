@@ -1,3 +1,22 @@
+3.3.1
+- Fix tradeskills not showing up in list
+- Fix some item need announcements not announcing due to unescaped -
+
+3.3.0
+- Add DZ lockout tab and `/bis lockouts` command
+
+3.2.3
+- Switch item list when entering a zone with an item list
+
+3.2.2
+- Misc spell updates
+
+3.2.1
+- Misc spell updates
+
+3.2.0
+- Added missing spells tab
+
 2.7.0
 - Add lock button
 
