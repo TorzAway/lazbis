@@ -90,7 +90,7 @@ local DZ_NAMES = {
 		{name='Riftseekers', lockout='Riftseeker', zone='Riftseeker'},
 		{name='Tacvi', lockout='Tunat', zone='Txevu', index=3},
 		{name='Txevu', lockout='Txevu', zone='Txevu'},
-		{name='Plane of Time', lockout='Quarm', zone='Plane of Time', index=3}, -- 'Phase 1 Complete', 'Phase 2 Complete', 'Phase 3 Complete', 'Phase 4 Complete', 'Phase 5 Complete', 'Quarm'
+		{name='Plane of Time', lockout='Quarm', zone='Plane of Time', index=3} -- 'Phase 1 Complete', 'Phase 2 Complete', 'Phase 3 Complete', 'Phase 4 Complete', 'Phase 5 Complete', 'Quarm'
 	}
 }
 local dzInfo = {[mq.TLO.Me.CleanName()] = {Raid={}, Group={}, OldRaids={}}}
@@ -1284,8 +1284,8 @@ local function bisGUI()
 						end
 						ImGui.TableHeadersRow()
 
-						-- for _,category in ipairs({'Raid','Group','OldRaids'}) do
-						for _,category in ipairs({'Raid','Group'}) do
+						for _,category in ipairs({'Raid','Group','OldRaids'}) do
+						-- for _,category in ipairs({'Raid','Group'}) do
 							ImGui.TableNextRow()
 							ImGui.TableNextColumn()
 							if ImGui.TreeNodeEx(category, bit32.bor(ImGuiTreeNodeFlags.SpanFullWidth, ImGuiTreeNodeFlags.DefaultOpen)) then
@@ -1527,8 +1527,8 @@ local function bisCommand(...)
 		printf('Missing Spells:\n%s', table.concat(missingSpellsText, '\n'))
 	elseif args[1] == 'lockouts' then
 		local output = ''
-		-- for _,category in ipairs({'Raid','Group','OldRaids'}) do
-		for _,category in ipairs({'Raid','Group'}) do
+		for _,category in ipairs({'Raid','Group','OldRaids'}) do
+		-- for _,category in ipairs({'Raid','Group'}) do
 			if not args[2] or args[2]:lower() == category:lower() then 
 				for _,dz in ipairs(DZ_NAMES[category]) do
 					output = output .. '\ay' .. dz.name .. '\ax \ar' .. category .. '\ax (\ag' .. dz.zone .. '\ax): '
@@ -1550,8 +1550,8 @@ local function populateDZInfo()
 	mq.delay(1)
 	mq.TLO.Window('DynamicZoneWnd').DoClose()
 	mq.delay(1)
-	-- for _,category in ipairs({'Raid','Group','OldRaids'}) do
-	for _,category in ipairs({'Raid','Group'}) do
+	for _,category in ipairs({'Raid','Group','OldRaids'}) do
+	-- for _,category in ipairs({'Raid','Group'}) do
 		for _,dz in ipairs(DZ_NAMES[category]) do
 			local idx = mq.TLO.Window('DynamicZoneWnd/DZ_TimerList').List(dz.lockout,dz.index or 2)()
 			if idx then
