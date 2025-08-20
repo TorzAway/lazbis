@@ -1,6 +1,6 @@
 --[[
-Best In Slot - Project Lazarus Edition
-aquietone, dlilah, ...
+Best In Slot - Project Lazarus Edition (WanteD)
+aquietone, dlilah, Kroaking ...
 
 Tracker lua script for all the good stuff to have on Project Lazarus server.
 ]]
@@ -60,13 +60,14 @@ local selectedTeam	= ''
 
 local DZ_NAMES = {
 	Raid = {
+		{name='The Crimson Curse', lockout='The Crimson Curse', zone='Chardok'},
 		{name='Crest Event', lockout='Threads_of_Chaos', zone='Qeynos Hills (BB)'},
-		{name='Fippy', lockout='=Broken World', zone='HC Qeynos Hills (pond)'},
+		{name='Fippy', lockout='Broken World', zone='HC Qeynos Hills (pond)'},
 		{name='$$PAID$$ Fippy', lockout='Broken World [Time Keeper]', zone='Plane of Time'},
-		{name='DSK', lockout='=Dreadspire_HC', zone='Castle Mistmoore'},
+		{name='DSK', lockout='Dreadspire_HC', zone='Castle Mistmoore'},
 		{name='$$PAID$$ DSK', lockout='Dreadspire_HC [Time Keeper]', zone='Plane of Time'},
 		{name='Veksar', lockout='A Lake of Ill Omens', zone='Lake of Ill Omen'},
-		{name='Anguish', lockout='=Overlord Mata Muram', zone='Wall of Slaughter', index=3},
+		{name='Anguish', lockout='Overlord Mata Muram', zone='Wall of Slaughter', index=3},
 		{name='Trak', lockout='Trakanon_Final', zone='HC Sebilis'},
 		{name='FUKU', lockout='Unrest, The Fabled Undead Knight', zone='Unrest'}
 	},
@@ -81,6 +82,8 @@ local DZ_NAMES = {
 		{name='Doll Maker', lockout='Doll Maker', zone='Kithicor Forest'},
 	},
 	OldRaids = {
+		{name='The Hole - Group', lockout='The Hole [Group]', zone='The Hole'},
+		{name='The Hole - Raid', lockout='The Hole [Raid]', zone='The Hole'},
 		{name='Trial of Hatred', lockout='Proving Grounds: The Mastery of Hatred', zone='MPG'},
 		{name='Trial of Corruption', lockout='Proving Grounds: The Mastery of Corruption', zone='MPG'},
 		{name='Trial of Adaptation', lockout='Proving Grounds: The Mastery of Adaptation', zone='MPG'},
