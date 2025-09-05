@@ -1696,11 +1696,12 @@ return {
 			['ClickyWep2'] = 'Forsaken Sword of the Morning',
 			['ClickyWep5'] = 'Forsaken Shieldstorm',
 			['ClickyWep8'] = 'Forsaken Zealot\'s Incarnadine Sword',
+			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug8'] = 'Desolate Lapis Lazuli',
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Druid'] = {
 			['Epic2.5'] = 'Staff of Ancient Brambles',
@@ -1719,7 +1720,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Enchanter'] = {
 			['Epic2.5'] = 'Staff of Ancient Eloquence',
@@ -1738,7 +1739,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Magician'] = {
 			['Epic2.5'] = 'Focus of Ancient Elements',
@@ -1757,7 +1758,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Monk'] = {
 			['Epic2.5'] = 'Ancient Fistwraps of Immortality',
@@ -1798,7 +1799,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Paladin'] = {
 			['Epic2.5'] = 'Nightbane, Sword of the Ancients',
@@ -1913,11 +1914,12 @@ return {
 			['ClickyWep5'] = 'Forsaken Shieldstorm',
 			['ClickyWep7'] = 'Forsaken Poison Wind Censer',
 			['ClickyWep8'] = 'Forsaken Zealot\'s Incarnadine Sword',
+			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug8'] = 'Desolate Lapis Lazuli',
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Warrior'] = {
 			['Epic2.5'] = 'Kreljnok\'s Sword of Ancient Power',
