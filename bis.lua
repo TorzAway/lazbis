@@ -3167,6 +3167,8 @@ return {
 			['Ferocity'] = 'Hexed Umbra of Ferocity',
 			['OtherworldlySoul'] = 'Otherworldly Soul',
 			['BellikosDoll'] = 'Living Bellikos Doll - Tranquility',
+			['Kithikor PortKey'] = 'Dollmaker\'s Key',
+			['West Karana PortKey'] = 'Moonlit Mirror',
 		},
 		['Main'] = {
 			['Slots'] = {
@@ -3176,7 +3178,7 @@ return {
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
 				{Name='Powersource', Slots={'EOC','Radix','OtherworldlySoul'}},
 				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
-				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky'}},
+				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
 				{Name='Food/Drink', Slots={'Food','Drink'}}
 			}
 		}
