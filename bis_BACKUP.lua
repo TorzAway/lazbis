@@ -34,10 +34,12 @@ return {
 		['Other Checklists'] = {
 			[1]={id='llhcitems',name='Lower Level HC Items'},
 			[2]={id='hcitems',name='Higher Level HC Items'},
-			[3]={id='jonas',name='Hand Aug'},
-			[4]={id='questitems',name='Quest Items'},
-			[5]={id='vendoritems',name='Vendor Items'},
-			[6]={id='focusitems',name='Focus Items'},
+			[3]={id='nightveil',name='Nightveil'},
+			[4]={id='jonas',name='Hand Aug'},
+			[5]={id='questitems',name='Quest Items'},
+			[6]={id='vendoritems',name='Vendor Items'},
+			[7]={id='focusitems',name='Focus Items'},
+			[8]={id='bagitems',name='Bag Items'},
 		},
 	},
 	['ZoneMap'] = {
@@ -830,7 +832,7 @@ return {
 			['Ear1'] = 'Earhoop of Eternal Night',
 			['Finger2'] = 'Luminary\'s Lavish Loop',
 			['Finger1'] = 'Coterie\'s Covetous Circlet',
-			['Secondary'] = 'Stave of Scorching Frost',
+			['Secondary'] = 'Furtive Aegis of the Sanguine',
 			['Ranged'] = 'Torch of the Ruined Lands',
 			['RangedAug'] = 'Bat Wing',
 			['Aug1'] = 'Hideous Hex of Benevolent Efficiency',
@@ -1005,7 +1007,7 @@ return {
 			['Finger1'] = 'Band of the Dragon\'s Bane',
 			['Finger2'] = 'Ringlet of Restless Spirits',
 			['MainHand'] = 'Brazier of the Ruined Lands',
-			['Secondary'] = 'Stave of Scorching Frost',
+			['Secondary'] = 'Stave of Scorching Frost/28367',
 			['Ranged'] = 'Brazier of the Ruined Lands',
 			['RangedAug'] = 'Fish Scales',
 			['Aug1'] = 'Hideous Hex of Benevolent Extension',
@@ -1264,6 +1266,63 @@ return {
 				{Name='Tier 4', Slots={'Tier 4 Complete','Gorillas (CT)','Ambassador Dvinn (CB)','Froglok Shin Lord (GukTop)','Death Beetles (Unrest)'}},
 				{Name='Tier 5', Slots={'Tier 5 Complete','Ground Spawn (Mistmoore)','Slizik The Mighty (Hole)','Ground Spawn (SplitPaw)','Frenzied Ghoul (GukBottom)'}},
 				{Name='Tier 6 (Final)', Slots={'Tier 6 Complete','Middle Finger (Mayong)',}},
+			},
+		},
+		['ShowBaseItemNames'] = {['ALL']=1},
+	},
+	['bagitems'] = {
+		['Template'] = {
+			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132',
+			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143',
+			
+			['Adventurer\'s Tattered Sack (Base)'] = 'Adventurer\'s Tattered Sack/151053',
+			['Reinforced Stitching Frame (T2 Trash)'] = 'Reinforced Stitching Frame/151058',
+			['Treated Expedition Straps (T3 Trash)'] = 'Treated Expedition Straps/151059',
+			['Arcwoven Binding Thread (T4 Trash)'] = 'Arcwoven Binding Thread/151060',
+			['Master Taylor\'s Celestial Lining (T5 Trash)'] = 'Master Taylor\'s Celestial Lining/151061',
+			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151053',		
+			
+			
+			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/124602',
+			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack/50628',
+						
+			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/???',
+			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623',
+			
+			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/???',
+			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box/50423',
+
+			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/???',
+			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack/50126',
+
+			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50624',
+			['Alloy Reinforced Bank Vault (UP^)'] = 'Alloy Reinforced Bank Vault/50625',
+
+			
+			['Euclid\'s Prime Carryall'] = 'Euclid\'s Prime Carryall/50620',
+			['Artisan\'s Adept Attache'] = 'Artisan\'s Adept Attache/50619',
+		},
+		['Main'] = {
+			['Slots'] = {				
+
+				
+				{Name='Farmed Bag (T1 Named)', Slots={'Adventurer\'s Tattered Sack (Base)','Adventurer\'s Tattered Sack (Celestial)'}},
+				{Name='Farmed Bag Upgrade Drops', Slots={'Reinforced Stitching Frame (T2 Trash)','Treated Expedition Straps (T3 Trash)','Arcwoven Binding Thread (T4 Trash)','Master Taylor\'s Celestial Lining (T5 Trash)'}},				
+				
+				{Name='CC Bought Bag', Slots={'Celestial Strongbox (CC) (Base)'}},
+				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Hallowed Celestial Strongbox (UP^)'}},
+
+				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santaug\'s Stocking (Base)','Enhanced Santaug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
+				
+				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
+				
+				{Name='Non Upgradable Bags', Slots={''}},
+				
+				
+				
+			
+								
+				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},
 			},
 		},
 		['ShowBaseItemNames'] = {['ALL']=1},
@@ -1696,11 +1755,12 @@ return {
 			['ClickyWep2'] = 'Forsaken Sword of the Morning',
 			['ClickyWep5'] = 'Forsaken Shieldstorm',
 			['ClickyWep8'] = 'Forsaken Zealot\'s Incarnadine Sword',
+			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug8'] = 'Desolate Lapis Lazuli',
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Druid'] = {
 			['Epic2.5'] = 'Staff of Ancient Brambles',
@@ -1719,7 +1779,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Enchanter'] = {
 			['Epic2.5'] = 'Staff of Ancient Eloquence',
@@ -1738,7 +1798,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Magician'] = {
 			['Epic2.5'] = 'Focus of Ancient Elements',
@@ -1757,7 +1817,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Monk'] = {
 			['Epic2.5'] = 'Ancient Fistwraps of Immortality',
@@ -1798,7 +1858,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Paladin'] = {
 			['Epic2.5'] = 'Nightbane, Sword of the Ancients',
@@ -1913,11 +1973,12 @@ return {
 			['ClickyWep5'] = 'Forsaken Shieldstorm',
 			['ClickyWep7'] = 'Forsaken Poison Wind Censer',
 			['ClickyWep8'] = 'Forsaken Zealot\'s Incarnadine Sword',
+			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug8'] = 'Desolate Lapis Lazuli',
 			['WeaponAug9'] = 'Desolate Malachite',
 			['WeaponAug11'] = 'Desolate Star Ruby',
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
-			['WeaponAug13'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12'] = 'Grotesque Skull of Grit',
 		},
 		['Warrior'] = {
 			['Epic2.5'] = 'Kreljnok\'s Sword of Ancient Power',
@@ -3165,6 +3226,8 @@ return {
 			['Ferocity'] = 'Hexed Umbra of Ferocity',
 			['OtherworldlySoul'] = 'Otherworldly Soul',
 			['BellikosDoll'] = 'Living Bellikos Doll - Tranquility',
+			['Kithikor PortKey'] = 'Dollmaker\'s Key',
+			['West Karana PortKey'] = 'Moonlit Mirror',
 		},
 		['Main'] = {
 			['Slots'] = {
@@ -3174,11 +3237,105 @@ return {
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
 				{Name='Powersource', Slots={'EOC','Radix','OtherworldlySoul'}},
 				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
-				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky'}},
+				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
 				{Name='Food/Drink', Slots={'Food','Drink'}}
 			}
 		}
 	},
+	['nightveil'] = {
+		['Bard'] = {
+			['Aug1'] = 'Brawler\'s Amorphous ',
+			['Aug2'] = 'Brawler\'s Amorphous ',
+			['Aug3'] = 'Brawler\'s Amorphous ',
+			['Aug4'] = 'Brawler\'s Amorphous ',
+		},
+		['Berserker'] = {
+			['Aug1'] = 'Brawler\'s Amorphous ',
+			['Aug2'] = 'Brawler\'s Amorphous ',
+			['Aug3'] = 'Brawler\'s Amorphous ',
+			['Aug4'] = 'Brawler\'s Amorphous ',
+		},
+		['Beastlord'] = {
+			['Aug1'] = 'Brawler\'s Amorphous ',
+			['Aug2'] = 'Brawler\'s Amorphous ',
+			['Aug3'] = 'Brawler\'s Amorphous ',
+			['Aug4'] = 'Brawler\'s Amorphous ',
+		},
+		['Cleric'] = {
+			['Aug1'] = 'Physician\'s Amorphous ',
+			['Aug2'] = 'Physician\'s Amorphous ',
+			['Aug3'] = 'Physician\'s Amorphous ',
+		},
+		['Druid'] = {
+			['Aug1'] = 'Physician\'s Amorphous ',
+			['Aug2'] = 'Physician\'s Amorphous ',
+			['Aug3'] = 'Physician\'s Amorphous ',
+		},
+		['Enchanter'] = {
+			['Aug1'] = 'Occultist\'s Amorphous ',
+			['Aug2'] = 'Occultist\'s Amorphous ',
+			['Aug3'] = 'Occultist\'s Amorphous ',
+		},
+		['Magician'] = {
+			['Aug1'] = 'Occultist\'s Amorphous ',
+			['Aug2'] = 'Occultist\'s Amorphous ',
+			['Aug3'] = 'Occultist\'s Amorphous ',
+		},
+		['Monk'] = {
+			['Aug1'] = 'Brawler\'s Amorphous ',
+			['Aug2'] = 'Brawler\'s Amorphous ',
+			['Aug3'] = 'Brawler\'s Amorphous ',
+			['Aug4'] = 'Brawler\'s Amorphous ',
+		},
+		['Necromancer'] = {
+			['Aug1'] = 'Occultist\'s Amorphous ',
+			['Aug2'] = 'Occultist\'s Amorphous ',
+			['Aug3'] = 'Occultist\'s Amorphous ',
+		},
+		['Paladin'] = {
+			['Aug1'] = 'Warden\'s Amorphous ',
+			['Aug2'] = 'Warden\'s Amorphous ',
+			['Aug3'] = 'Warden\'s Amorphous ',
+		},
+		['Ranger'] = {
+			['Aug1'] = 'Brawler\'s Amorphous ',
+			['Aug2'] = 'Brawler\'s Amorphous ',
+			['Aug3'] = 'Brawler\'s Amorphous ',
+			['Aug4'] = 'Brawler\'s Amorphous ',
+		},
+		['Rogue'] = {
+			['Aug1'] = 'Brawler\'s Amorphous ',
+			['Aug2'] = 'Brawler\'s Amorphous ',
+			['Aug3'] = 'Brawler\'s Amorphous ',
+			['Aug4'] = 'Brawler\'s Amorphous ',
+		},
+		['Shadow Knight'] = {
+			['Aug1'] = 'Warden\'s Amorphous ',
+			['Aug2'] = 'Warden\'s Amorphous ',
+			['Aug3'] = 'Warden\'s Amorphous ',
+		},
+		['Shaman'] = {
+			['Aug1'] = 'Physician\'s Amorphous ',
+			['Aug2'] = 'Physician\'s Amorphous ',
+			['Aug3'] = 'Physician\'s Amorphous ',
+		},
+		['Warrior'] = {
+			['Aug1'] = 'Warden\'s Amorphous ',
+			['Aug2'] = 'Warden\'s Amorphous ',
+			['Aug3'] = 'Warden\'s Amorphous ',
+		},
+		['Wizard'] = {
+			['Aug1'] = 'Occultist\'s Amorphous ',
+			['Aug2'] = 'Occultist\'s Amorphous ',
+			['Aug3'] = 'Occultist\'s Amorphous ',
+		},
+		['Main'] = {
+			['Slots'] = {
+				{Name='Amorphous Augs', Slots={'Aug1','Aug2','Aug3','Aug4',}}
+			}
+		},
+		['Template'] = {},
+	},	
 	['preanguish'] = {
 		['Bard'] = {
 			['Arms'] = 'Armplates of Endless Fortitude/47204',
@@ -3263,6 +3420,7 @@ return {
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',	
+			['Clicky5'] = 'Wand of the Vortex/26899',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
 		},
@@ -3291,7 +3449,8 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
-			['Clicky4'] = 'Prismatic Ring of Resistance/26989',		
+			['Clicky4'] = 'Prismatic Ring of Resistance/26989',	
+			['Clicky5'] = 'Wand of the Vortex/26899',			
 			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
 		},
 		['Druid'] = {
@@ -3321,6 +3480,7 @@ return {
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['Clicky5'] = 'Wand of the Vortex/26899',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 			['PoPAug1'] = 'Volatile Planar Rune/150033',
 			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',
@@ -3353,6 +3513,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
+			['Clicky4'] = 'Wand of the Vortex/26899',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 			['PoPAug1'] = 'Volatile Planar Rune/150033',
 			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
@@ -3385,6 +3546,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
+			['Clicky4'] = 'Wand of the Vortex/26899',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 			['PoPAug1'] = 'Volatile Planar Rune/150033',
 			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
@@ -3446,6 +3608,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',	
+			['Clicky4'] = 'Wand of the Vortex/26899',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
 			['GoDAug2'] = 'Focus Shard of Destruction/150047',
@@ -3512,6 +3675,7 @@ return {
 			['Clicky2'] = 'Cloak of Retribution/15842',
 			['Clicky3'] = 'Ring of Organic Darkness/69131',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['Clicky5'] = 'Wand of the Vortex/26899',
 			['PoPAug1'] = 'Planar Alloy of Escalating Onslaught/10412',
 			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
 			['GoDAug2'] = 'Focus Shard of Destruction/150047',
@@ -3607,6 +3771,7 @@ return {
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
 			['Clicky4'] = 'Prismatic Ring of Resistance/26989',
+			['Clicky5'] = 'Wand of the Vortex/26899',
 			['GoDAug1'] = 'Discordian Alloy of Tenacity/150041',	
 			['GoDAug2'] = 'Focus Shard of Aggregate Annihilation/41142',
 			['GoDAug3'] = 'Focus Shard of Destruction/150047',
@@ -3673,6 +3838,7 @@ return {
 			['Clicky1'] = 'Earring of Pain Deliverance/69133',
 			['Clicky2'] = 'Loop of Endless Insanity/68957',
 			['Clicky3'] = 'Mantle of Corruption/69163',
+			['Clicky4'] = 'Wand of the Vortex/26899',
 			['Aug1'] = 'Velrek\'s Enchanted Prism/68020',
 			['PoPAug1'] = 'Volatile Planar Rune/150033',
 			['GoDAug1'] = 'Focus Shard of Aggregate Annihilation/41142',
@@ -3684,7 +3850,7 @@ return {
 				{Name='Visibles', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrist1','Wrist2'}},
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist'}},
 				{Name='Weapons', Slots={'MainHand','Secondary','Range','Charm'}},		
-				{Name='Clickies', Slots={'Clicky1','Clicky2','Clicky3','Clicky4'}},
+				{Name='Clickies', Slots={'Clicky1','Clicky2','Clicky3','Clicky4','Clicky5'}},
 				{Name='Augments', Slots={'Aug1','Aug2','Aug3','Aug4','Aug5','Aug6','Aug7','Aug8'}},
 				{Name='PoP_Slot(3)', Slots={'PoPAug1','PoPAug2'}},
 				{Name='GoD_Slot(3)', Slots={'GoDAug1','GoDAug2','GoDAug3','GoDAug4'}}				
