@@ -1280,7 +1280,7 @@ return {
 			['Treated Expedition Straps (T3 Trash)'] = 'Treated Expedition Straps/151059',
 			['Arcwoven Binding Thread (T4 Trash)'] = 'Arcwoven Binding Thread/151060',
 			['Master Taylor\'s Celestial Lining (T5 Trash)'] = 'Master Taylor\'s Celestial Lining/151061',
-			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151053',		
+			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151053/151058/151059/151060',		
 			
 			
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/124602',
@@ -1309,7 +1309,6 @@ return {
 				{Name='Farmed Bag (T1 Named)', Slots={'Adventurer\'s Tattered Sack (Base)','Adventurer\'s Tattered Sack (Celestial)'}},
 				{Name='Farmed Bag Upgrade Drops', Slots={'Reinforced Stitching Frame (T2 Trash)','Treated Expedition Straps (T3 Trash)','Arcwoven Binding Thread (T4 Trash)','Master Taylor\'s Celestial Lining (T5 Trash)'}},				
 				
-				{Name='CC Bought Bag', Slots={'Celestial Strongbox (CC) (Base)'}},
 				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Hallowed Celestial Strongbox (UP^)'}},
 
 				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santaug\'s Stocking (Base)','Enhanced Santaug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
