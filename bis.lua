@@ -1272,9 +1272,11 @@ return {
 	},
 	['bagitems'] = {
 		['Template'] = {
-			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132',		
+			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132/50134/50135/50136/50137/50138/50139/50140/50141/50142/50143',		
+			--
 			['Celestial Blessing of the Djinn (UPG ITM)'] = 'Celestial Blessing of the Djinn/50133',		
-			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox/50134/50132',			
+			--
+			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox/50134/50132',				
 			['Blessed Celestial Strongbox (UP2)'] = 'Blessed Celestial Strongbox/50135/50134/50132',			
 			['Blessed Celestial Strongbox (UP3)'] = 'Blessed Celestial Strongbox/50136/50135/50134/50132',			
 			['Blessed Celestial Strongbox (UP4)'] = 'Blessed Celestial Strongbox/50137/50136/50135/50134/50132',			
@@ -1283,28 +1285,34 @@ return {
 			['Blessed Celestial Strongbox (UP7)'] = 'Blessed Celestial Strongbox/50140/50139/50138/50137/50136/50135/50134/50132',			
 			['Blessed Celestial Strongbox (UP8)'] = 'Blessed Celestial Strongbox/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
 			['Blessed Celestial Strongbox (UP9)'] = 'Blessed Celestial Strongbox/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
-			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
+			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',
 			-- 			
-			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151053',			
+			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151053/151057',		
+			
 			['Reinforced Stitching Frame (T2 Trash)'] = 'Reinforced Stitching Frame/151058',
-			['Adventurer\'s Tattered Sack (Reinforced) (UP1)'] = 'Adventurer\'s Tattered Sack (Reinforced)/151054/151053',			
+			['Adventurer\'s Tattered Sack (Reinforced) (UP1)'] = 'Adventurer\'s Tattered Sack (Reinforced)/151054/151053',	
+			
 			['Treated Expedition Straps (T3 Trash)'] = 'Treated Expedition Straps/151059',
-			['Adventurer\'s Tattered Sack (Bound) (UP2)'] = 'Adventurer\'s Tattered Sack (Bound)/151055/151054/151053',					
+			['Adventurer\'s Tattered Sack (Bound) (UP2)'] = 'Adventurer\'s Tattered Sack (Bound)/151055/151054/151053',	
+			
 			['Arcwoven Binding Thread (T4 Trash)'] = 'Arcwoven Binding Thread/151060',
-			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151056/151055/151054/151053',			
-			['Master Taylor\'s Celestial Lining (T5 Trash)'] = 'Master Taylor\'s Celestial Lining/151061',		
-			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151056/151055/151054/151053',		
+			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151056/151055/151054/151053',	
+			
+			['Master Taylor\'s Celestial Lining (T5 Trash)'] = 'Master Taylor\'s Celestial Lining/151061',	
+			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151053',
 			-- 
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/124602',
 			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack/50628',
 			-- 			
-			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/87573',
-			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623/87573',			
-			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/57853',
-			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box/50423/57853',
+			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/87573/50623',
+			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623',
+			-- 			
+			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/57853/50423',
+			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box/50423',
 			-- 
-			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/9545',
-			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack/50126/9545',
+			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/9545/50126',
+			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack/50126',
+			--
 			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50624',
 			['Alloy Reinforced Bank Vault (UP^)'] = 'Alloy Reinforced Bank Vault/50625',
 			-- 			
