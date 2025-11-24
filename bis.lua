@@ -1272,47 +1272,51 @@ return {
 	},
 	['bagitems'] = {
 		['Template'] = {
-			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132',
-			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143',
-			
-			['Adventurer\'s Tattered Sack (Base)'] = 'Adventurer\'s Tattered Sack/151053',
-			
+			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132',		
+			['Celestial Blessing of the Djinn (UPG ITM)'] = 'Celestial Blessing of the Djinn/50133',		
+			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox/50134/50132',			
+			['Blessed Celestial Strongbox (UP2)'] = 'Blessed Celestial Strongbox/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP3)'] = 'Blessed Celestial Strongbox/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP4)'] = 'Blessed Celestial Strongbox/50137/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP5)'] = 'Blessed Celestial Strongbox/50138/50137/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP6)'] = 'Blessed Celestial Strongbox/50139/50138/50137/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP7)'] = 'Blessed Celestial Strongbox/50140/50139/50138/50137/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP8)'] = 'Blessed Celestial Strongbox/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP9)'] = 'Blessed Celestial Strongbox/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
+			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
+			-- 			
+			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151053',			
 			['Reinforced Stitching Frame (T2 Trash)'] = 'Reinforced Stitching Frame/151058',
-			['Adventurer\'s Tattered Sack (Reinforced)'] = 'Adventurer\'s Tattered Sack (Reinforced)/???',				
+			['Adventurer\'s Tattered Sack (Reinforced) (UP1)'] = 'Adventurer\'s Tattered Sack (Reinforced)/151054/151053',			
 			['Treated Expedition Straps (T3 Trash)'] = 'Treated Expedition Straps/151059',
-			['Adventurer\'s Tattered Sack (Bound)'] = 'Adventurer\'s Tattered Sack (Bound)/???',					
+			['Adventurer\'s Tattered Sack (Bound) (UP2)'] = 'Adventurer\'s Tattered Sack (Bound)/151055/151054/151053',					
 			['Arcwoven Binding Thread (T4 Trash)'] = 'Arcwoven Binding Thread/151060',
-			['Adventurer\'s Tattered Sack (Arcwoven)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/???',							
+			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151056/151055/151054/151053',			
 			['Master Taylor\'s Celestial Lining (T5 Trash)'] = 'Master Taylor\'s Celestial Lining/151061',		
-			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057',		
-
+			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151056/151055/151054/151053',		
+			-- 
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/124602',
 			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack/50628',
-						
-			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/???',
-			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623',
-			
-			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/???',
-			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box/50423',
-
-			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/???',
-			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack/50126',
-
+			-- 			
+			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/87573',
+			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623/87573',			
+			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/57853',
+			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box/50423/57853',
+			-- 
+			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/9545',
+			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack/50126/9545',
 			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50624',
 			['Alloy Reinforced Bank Vault (UP^)'] = 'Alloy Reinforced Bank Vault/50625',
-
-			
+			-- 			
 			['Euclid\'s Prime Carryall'] = 'Euclid\'s Prime Carryall/50620',
 			['Artisan\'s Adept Attache'] = 'Artisan\'s Adept Attache/50619',
 		},
 		['Main'] = {
-			['Slots'] = {				
-				{Name='Farmed Bag (T1 Named)', Slots={'Adventurer\'s Tattered Sack (Base)'}},
-				{Name='Farmed Bag Upgrade Drops', Slots={'Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven)','Master Taylor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
-				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Hallowed Celestial Strongbox (UP^)'}},
+			['Slots'] = {
+				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Taylor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
+				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},														
 				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santaug\'s Stocking (Base)','Enhanced Santaug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
-				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},				
-				{Name='Non Upgradable Bags', Slots={''}},								
+				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
 				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},
 			},
 		},
