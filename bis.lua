@@ -1272,22 +1272,22 @@ return {
 	},
 	['bagitems'] = {
 		['Template'] = {
-			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132/50134/50135/50136/50137/50138/50139/50140/50141/50142/50143',		
+			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132',		
 			--
 			['Celestial Blessing of the Djinn (UPG ITM)'] = 'Celestial Blessing of the Djinn/50133',		
 			--
-			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox/50134/50132',				
-			['Blessed Celestial Strongbox (UP2)'] = 'Blessed Celestial Strongbox/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP3)'] = 'Blessed Celestial Strongbox/50136/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP4)'] = 'Blessed Celestial Strongbox/50137/50136/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP5)'] = 'Blessed Celestial Strongbox/50138/50137/50136/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP6)'] = 'Blessed Celestial Strongbox/50139/50138/50137/50136/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP7)'] = 'Blessed Celestial Strongbox/50140/50139/50138/50137/50136/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP8)'] = 'Blessed Celestial Strongbox/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
-			['Blessed Celestial Strongbox (UP9)'] = 'Blessed Celestial Strongbox/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',			
+			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox/50134/50132',
+			['Blessed Celestial Strongbox (UP2)'] = 'Blessed Celestial Strongbox/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP3)'] = 'Blessed Celestial Strongbox/50136/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP4)'] = 'Blessed Celestial Strongbox/50137/50136/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP5)'] = 'Blessed Celestial Strongbox/50138/50137/50136/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP6)'] = 'Blessed Celestial Strongbox/50139/50138/50137/50136/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP7)'] = 'Blessed Celestial Strongbox/50140/50139/50138/50137/50136/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP8)'] = 'Blessed Celestial Strongbox/50141/50140/50139/50138/50137/50136/50135/50134/50132',
+			['Blessed Celestial Strongbox (UP9)'] = 'Blessed Celestial Strongbox/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',
 			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',
 			-- 			
-			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151053/151057',		
+			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151053',
 			
 			['Reinforced Stitching Frame (T2 Trash)'] = 'Reinforced Stitching Frame/151058',
 			['Adventurer\'s Tattered Sack (Reinforced) (UP1)'] = 'Adventurer\'s Tattered Sack (Reinforced)/151054/151053',	
@@ -1303,7 +1303,10 @@ return {
 			-- 
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/124602',
 			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack/50628',
-			-- 			
+			-- 	
+			['Jack-O-Lantern Bag (Base)'] = 'Jack-O-Lantern Bag/55441/50127',
+			['Enhanced Jack-O-Lantern Bag (UP^)'] = 'Enhanced Jack-O-Lantern Bag/50127',
+			-- 
 			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/87573/50623',
 			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623',
 			-- 			
@@ -1323,7 +1326,7 @@ return {
 			['Slots'] = {
 				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Taylor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
 				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},														
-				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santaug\'s Stocking (Base)','Enhanced Santaug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
+				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Jack-O-Lantern Bag (Base)','Enhanced Jack-O-Lantern Bag (UP^)','Santaug\'s Stocking (Base)','Enhanced Santaug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
 				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
 				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},
 			},
