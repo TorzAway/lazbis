@@ -3215,6 +3215,7 @@ return {
 			['BIC4'] = 'Black Gemstone of Torture',
 			['EOC'] = 'Essence of Creation/150402',
 			['Radix'] = 'Radix',
+			['LuminousEssence'] = 'Luminous Essence/50633',
 			['Oculus'] = '9 Echoes of Reflection',
 			['Horseshoe'] = '9 Spheres of Ascension',
 			['Tongue'] = '9 Realms of Transition',
@@ -3241,7 +3242,7 @@ return {
 				{Name='Power of 6 (Keepsakes)', Slots={'Symbol','Destruction','Mending','Persistence','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
 				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
-				{Name='Powersource', Slots={'EOC','Radix','OtherworldlySoul'}},
+				{Name='Powersource', Slots={'EOC','Radix','LuminousEssence','OtherworldlySoul'}},
 				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
 				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
 				{Name='Food/Drink', Slots={'Food','Drink'}}
