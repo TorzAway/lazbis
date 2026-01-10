@@ -1274,61 +1274,51 @@ return {
 	},
 	['bagitems'] = {
 		['Template'] = {
-			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50132',		
-			--
-			['Celestial Blessing of the Djinn (UPG ITM)'] = 'Celestial Blessing of the Djinn/50133',		
-			--
-			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox/50134/50132',
-			['Blessed Celestial Strongbox (UP2)'] = 'Blessed Celestial Strongbox/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP3)'] = 'Blessed Celestial Strongbox/50136/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP4)'] = 'Blessed Celestial Strongbox/50137/50136/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP5)'] = 'Blessed Celestial Strongbox/50138/50137/50136/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP6)'] = 'Blessed Celestial Strongbox/50139/50138/50137/50136/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP7)'] = 'Blessed Celestial Strongbox/50140/50139/50138/50137/50136/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP8)'] = 'Blessed Celestial Strongbox/50141/50140/50139/50138/50137/50136/50135/50134/50132',
-			['Blessed Celestial Strongbox (UP9)'] = 'Blessed Celestial Strongbox/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',
-			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox/50143/50142/50141/50140/50139/50138/50137/50136/50135/50134/50132',
-			-- 			
-			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151053',
+			['Celestial Strongbox (CC) (Base)'] = 'Celestial Strongbox/50134/50135/50136/50137/50138/50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP1)'] = 'Blessed Celestial Strongbox|50134/50135/50136/50137/50138/50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP2)'] = 'Blessed Celestial Strongbox|50135/50136/50137/50138/50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP3)'] = 'Blessed Celestial Strongbox|50136/50137/50138/50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP4)'] = 'Blessed Celestial Strongbox|50137/50138/50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP5)'] = 'Blessed Celestial Strongbox|50138/50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP6)'] = 'Blessed Celestial Strongbox|50139/50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP7)'] = 'Blessed Celestial Strongbox|50140/50141/50142/50143',
+			['Blessed Celestial Strongbox (UP8)'] = 'Blessed Celestial Strongbox|50141/50142/50143',
+			['Blessed Celestial Strongbox (UP9)'] = 'Blessed Celestial Strongbox|50142/50143',
+			['Hallowed Celestial Strongbox (UP^)'] = 'Hallowed Celestial Strongbox',
+
+			['Adventurer\'s Tattered Sack (Base) (T1 Named)'] = 'Adventurer\'s Tattered Sack/151054/151055/151056/151057',
+			['Reinforced Stitching Frame (T2 Trash)'] = 'Reinforced Stitching Frame/151054/151055/151056/151057',
+			['Adventurer\'s Tattered Sack (Reinforced) (UP1)'] = 'Adventurer\'s Tattered Sack (Reinforced)/151055/151056/151057',
+			['Treated Expedition Straps (T3 Trash)'] = 'Treated Expedition Straps/151055/151056/151057',
+			['Adventurer\'s Tattered Sack (Bound) (UP2)'] = 'Adventurer\'s Tattered Sack (Bound)/151056/151057',
+			['Arcwoven Binding Thread (T4 Trash)'] = 'Arcwoven Binding Thread/151056/151057',
+			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151057',
+			['Master Tailor\'s Celestial Lining (T5 Trash)'] = 'Master Tailor\'s Celestial Lining/151057',
+			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)',
 			
-			['Reinforced Stitching Frame (T2 Trash)'] = 'Reinforced Stitching Frame/151058',
-			['Adventurer\'s Tattered Sack (Reinforced) (UP1)'] = 'Adventurer\'s Tattered Sack (Reinforced)/151054/151053',	
+			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/50628',
+			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack',
+
+			['Santug\'s Stocking (Base)'] = 'Santug\'s Stocking/50623',
+			['Enhanced Santug\'s Stocking (UP^)'] = 'Enhanced Santug\'s Stocking',
 			
-			['Treated Expedition Straps (T3 Trash)'] = 'Treated Expedition Straps/151059',
-			['Adventurer\'s Tattered Sack (Bound) (UP2)'] = 'Adventurer\'s Tattered Sack (Bound)/151055/151054/151053',	
-			
-			['Arcwoven Binding Thread (T4 Trash)'] = 'Arcwoven Binding Thread/151060',
-			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151056/151055/151054/151053',	
-			
-			['Master Taylor\'s Celestial Lining (T5 Trash)'] = 'Master Taylor\'s Celestial Lining/151061',	
-			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)/151057/151053',
-			-- 
-			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/124602',
-			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack/50628',
-			-- 	
-			['Jack-O-Lantern Bag (Base)'] = 'Jack-O-Lantern Bag/55441/50127',
-			['Enhanced Jack-O-Lantern Bag (UP^)'] = 'Enhanced Jack-O-Lantern Bag/50127',
-			-- 
-			['Santaug\'s Stocking (Base)'] = 'Santaug\'s Stocking/87573/50623',
-			['Enhanced Santaug\'s Stocking (UP^)'] = 'Enhanced Santaug\'s Stocking/50623',
-			-- 			
-			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/57853/50423',
-			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box/50423',
-			-- 
-			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/9545/50126',
-			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack/50126',
-			--
-			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50624',
-			['Alloy Reinforced Bank Vault (UP^)'] = 'Alloy Reinforced Bank Vault/50625',
-			-- 			
+			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/50423',
+			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box',
+
+			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/50126',
+			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack',
+
+			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50625',
+			['Alloy Reinforced Bank Vault (UP^)'] = 'Alloy Reinforced Bank Vault',
+
 			['Euclid\'s Prime Carryall'] = 'Euclid\'s Prime Carryall/50620',
 			['Artisan\'s Adept Attache'] = 'Artisan\'s Adept Attache/50619',
 		},
 		['Main'] = {
-			['Slots'] = {
-				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Taylor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
-				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},														
-				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Jack-O-Lantern Bag (Base)','Enhanced Jack-O-Lantern Bag (UP^)','Santaug\'s Stocking (Base)','Enhanced Santaug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
+			['Slots'] = {				
+				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Tailor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
+				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},
+				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santug\'s Stocking (Base)','Enhanced Santug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
 				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
 				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},
 			},
@@ -3253,98 +3243,88 @@ return {
 	},
 	['nightveil'] = {
 		['Bard'] = {
-			['Aug1'] = 'Brawler\'s Amorphous ',
-			['Aug2'] = 'Brawler\'s Amorphous ',
-			['Aug3'] = 'Brawler\'s Amorphous ',
-			['Aug4'] = 'Brawler\'s Amorphous ',
+			['RangeAug'] = 'Oval Aspect of Exchange',
 		},
 		['Berserker'] = {
-			['Aug1'] = 'Brawler\'s Amorphous ',
-			['Aug2'] = 'Brawler\'s Amorphous ',
-			['Aug3'] = 'Brawler\'s Amorphous ',
-			['Aug4'] = 'Brawler\'s Amorphous ',
+			['PrimaryAug'] = 'Oval Aspect of Chaos',
+			['RangeAug'] = 'Oval Aspect of Exchange',
 		},
 		['Beastlord'] = {
-			['Aug1'] = 'Brawler\'s Amorphous ',
-			['Aug2'] = 'Brawler\'s Amorphous ',
-			['Aug3'] = 'Brawler\'s Amorphous ',
-			['Aug4'] = 'Brawler\'s Amorphous ',
+			['RangeAug'] = 'Oval Aspect of Exchange',
 		},
 		['Cleric'] = {
-			['Aug1'] = 'Physician\'s Amorphous ',
-			['Aug2'] = 'Physician\'s Amorphous ',
-			['Aug3'] = 'Physician\'s Amorphous ',
+			['PrimaryAug'] = 'Trilliant Aspect of Survival',
+			['RangeAug'] = 'Trilliant Aspect of Exchange',
 		},
 		['Druid'] = {
-			['Aug1'] = 'Physician\'s Amorphous ',
-			['Aug2'] = 'Physician\'s Amorphous ',
-			['Aug3'] = 'Physician\'s Amorphous ',
+			['PrimaryAug'] = 'Trilliant Aspect of Survival',
+			['RangeAug'] = 'Trilliant Aspect of Exchange',
 		},
 		['Enchanter'] = {
-			['Aug1'] = 'Occultist\'s Amorphous ',
-			['Aug2'] = 'Occultist\'s Amorphous ',
-			['Aug3'] = 'Occultist\'s Amorphous ',
+			['PrimaryAug'] = 'Marquise Aspect of Lightning',
+			['SecondaryAug'] = 'Marquise Aspect of Enduring',
+			['RangeAug'] = 'Marquise Aspect of Exchange',
 		},
 		['Magician'] = {
-			['Aug1'] = 'Occultist\'s Amorphous ',
-			['Aug2'] = 'Occultist\'s Amorphous ',
-			['Aug3'] = 'Occultist\'s Amorphous ',
+			['PrimaryAug'] = 'Marquise Aspect of Flame',
+			['SecondaryAug'] = 'Marquise Aspect of Lightning',
+			['RangeAug'] = 'Marquise Aspect of Exchange',
 		},
 		['Monk'] = {
-			['Aug1'] = 'Brawler\'s Amorphous ',
-			['Aug2'] = 'Brawler\'s Amorphous ',
-			['Aug3'] = 'Brawler\'s Amorphous ',
-			['Aug4'] = 'Brawler\'s Amorphous ',
+			['PrimaryAug'] = 'Oval Aspect of Chaos',
+			['SecondaryAug'] = 'Oval Aspect of Venom',
+			['RangeAug'] = 'Oval Aspect of Exchange',
 		},
 		['Necromancer'] = {
-			['Aug1'] = 'Occultist\'s Amorphous ',
-			['Aug2'] = 'Occultist\'s Amorphous ',
-			['Aug3'] = 'Occultist\'s Amorphous ',
+			['PrimaryAug'] = 'Marquise Aspect of Flame',
+			['SecondaryAug'] = 'Marquise Aspect of Lightning',
+			['RangeAug'] = 'Marquise Aspect of Exchange',
 		},
 		['Paladin'] = {
-			['Aug1'] = 'Warden\'s Amorphous ',
-			['Aug2'] = 'Warden\'s Amorphous ',
-			['Aug3'] = 'Warden\'s Amorphous ',
+			['PrimaryAug'] = 'Square Aspect of Survival',
+			['RangeAug'] = 'Square Aspect of Exchange',
 		},
 		['Ranger'] = {
-			['Aug1'] = 'Brawler\'s Amorphous ',
-			['Aug2'] = 'Brawler\'s Amorphous ',
-			['Aug3'] = 'Brawler\'s Amorphous ',
-			['Aug4'] = 'Brawler\'s Amorphous ',
+			['PrimaryAug'] = 'Marquise Aspect of Exchange',
+			['SecondaryAug'] = 'Marquise Aspect of Flame',
+			['RangeAug'] = 'Marquise Aspect of Chaos',
 		},
 		['Rogue'] = {
-			['Aug1'] = 'Brawler\'s Amorphous ',
-			['Aug2'] = 'Brawler\'s Amorphous ',
-			['Aug3'] = 'Brawler\'s Amorphous ',
-			['Aug4'] = 'Brawler\'s Amorphous ',
+			['PrimaryAug'] = 'Oval Aspect of Chaos',
+			['SecondaryAug'] = 'Oval Aspect of Venom',
+			['RangeAug'] = 'Oval Aspect of Exchange',
 		},
 		['Shadow Knight'] = {
-			['Aug1'] = 'Warden\'s Amorphous ',
-			['Aug2'] = 'Warden\'s Amorphous ',
-			['Aug3'] = 'Warden\'s Amorphous ',
+			['PrimaryAug'] = 'Square Aspect of Survival',
+			['RangeAug'] = 'Square Aspect of Exchange',
 		},
 		['Shaman'] = {
-			['Aug1'] = 'Physician\'s Amorphous ',
-			['Aug2'] = 'Physician\'s Amorphous ',
-			['Aug3'] = 'Physician\'s Amorphous ',
+			['PrimaryAug'] = 'Trilliant Aspect of Survival',
+			['RangeAug'] = 'Trilliant Aspect of Exchange',
 		},
 		['Warrior'] = {
-			['Aug1'] = 'Warden\'s Amorphous ',
-			['Aug2'] = 'Warden\'s Amorphous ',
-			['Aug3'] = 'Warden\'s Amorphous ',
+			['PrimaryAug'] = 'Square Aspect of Survival',
+			['RangeAug'] = 'Square Aspect of Exchange',
 		},
 		['Wizard'] = {
-			['Aug1'] = 'Occultist\'s Amorphous ',
-			['Aug2'] = 'Occultist\'s Amorphous ',
-			['Aug3'] = 'Occultist\'s Amorphous ',
+			['PrimaryAug'] = 'Marquise Aspect of Flame',
+			['SecondaryAug'] = 'Marquise Aspect of Lightning',
+			['RangeAug'] = 'Marquise Aspect of Exchange',
 		},
 		['Main'] = {
 			['Slots'] = {
-				{Name='Amorphous Augs', Slots={'Aug1','Aug2','Aug3','Aug4',}}
+				{Name='Nightveil Augs', Slots={'Codex','PrimaryAug','SecondaryAug','RangeAug',}}
 			}
 		},
-		['Template'] = {},
-	},	
+		['Template'] = {
+			['Codex'] = 'Codex of Numbers',
+		},
+	},
+	-- {Name='Brawler\'s', Slots={'Brawler\'s Amorphous Lightning','Brawler\'s Amorphous Flame','Brawler\'s Amorphous Frost','Brawler\'s Amorphous Venom','Brawler\'s Amorphous Vampirism','Brawler\'s Amorphous Enduring','Brawler\'s Amorphous Exchange','Brawler\'s Amorphous Chaos',}}
+	-- {Name='Occultist\'s', Slots={'Occultist\'s Amorphous Lightning','Occultist\'s Amorphous Flame','Occultist\'s Amorphous Frost','Occultist\'s Amorphous Venom','Occultist\'s Amorphous Rot','Occultist\'s Amorphous Vampirism','Occultist\'s Amorphous Enduring','Occultist\'s Amorphous Exchange',}}
+	-- {Name='Physician\'s', Slots={'Physician\'s Amorphous Lightning','Physician\'s Amorphous Flame','Physician\'s Amorphous Frost','Physician\'s Amorphous Venom','Physician\'s Amorphous Rot','Physician\'s Amorphous Survival','Physician\'s Amorphous Enduring','Physician\'s Amorphous Exchange',}}
+	-- {Name='Warden\'s', Slots={'Warden\'s Amorphous Lightning','Warden\'s Amorphous Flame','Warden\'s Amorphous Frost','Warden\'s Amorphous Venom','Warden\'s Amorphous Rot','Warden\'s Amorphous Survival','Warden\'s Amorphous Enduring','Warden\'s Amorphous Exchange',}}
+
 	['preanguish'] = {
 		['Bard'] = {
 			['Arms'] = 'Armplates of Endless Fortitude/47204',
