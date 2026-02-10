@@ -380,7 +380,8 @@ return {
 			['Aug4(SK)'] = 'Morguecaller/150282',
 			['DSK1'] = 'Shoulderpads of Warfare/28116',
 			['DSK2'] = 'Golem Stone Face Guard/28117',
-			['DSK3'] = 'Symbol of the Overlord/40814',
+			['DSK3'] = 'Ring of Disdain/28110',
+			['DSK4'] = 'Symbol of the Overlord/40814',
 			['Mask'] = 'Mirrored Mask',
 		},
 		['Shaman'] = {
