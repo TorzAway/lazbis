@@ -76,7 +76,7 @@ return {
         [70] = {
             'Bewildering Scream|Random Drop',
             'Bloodthirst|???',
-            'Third Wind|Random Drop',
+            'Third Wind Discipline|Random Drop',
             'Vengeful Flurry Discipline|Researched or Glowing Rune',
         },
         [69] = {
@@ -312,7 +312,7 @@ return {
             'Crystalpalm Discipline|Random Drop',
             'Heel of Kai|Random Drop',
             'Rapid Kick Discipline|Researched or Glowing Rune',
-            'Third Wind|Random Drop',
+            'Third Wind Discipline|Random Drop',
         },
         [69] = {
             'Dragon Fang|Random Drop',
@@ -460,7 +460,7 @@ return {
             'Frenzied Stabbing Discipline|Researched or Glowing Rune',
             'Poison Spikes Trap|Random Drop',
             'Razorarc|Random Drop',
-            'Third Wind|Random Drop',
+            'Third Wind Discipline|Random Drop',
         },
         [69] = {
             'Assassin\'s Deceit|???',
@@ -580,7 +580,7 @@ return {
             'Champion\'s Aura|Random Drop',
             'Flaunt|Random Drop',
             'Shocking Defense Discipline|Researched or Minor Rune',
-            'Third Wind|Random Drop',
+            'Third Wind Discipline|Random Drop',
             'Unyielding Attention|Random Drop',
         },
         [69] = {
