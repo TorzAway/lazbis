@@ -77,7 +77,7 @@ local DZ_NAMES = {
 		{name='Crucible of the Physician', lockout='Crucible of the Physician', zone='Nightveil Sanctum'},
 		{name='Crucible of the Warden', lockout='Crucible of the Warden', zone='Nightveil Sanctum'},
 		{name='VP Hardcore', lockout='VP Hardcore', zone='Nightveil Sanctum'},
-		{name='Manastone Source', lockout='Manastone Source', zone='HC gukbotom'},
+		{name='Manastone Source', lockout='Manastone Source', zone='HC Lower Guk'},
 	},
 	Group = {
 		{name='Lucian\'s Nightmare', lockout='Lucian\'s Nightmare', zone='Nightveil Sanctum'},
