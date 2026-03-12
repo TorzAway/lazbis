@@ -12,7 +12,7 @@ return {
         [69] = {
             'Chorus of Life|Researched or Greater Rune',
             'Eriki\'s Psalm of Power|Researched or Greater Rune',
-            'Storm Blade|Random Drop',
+            'Storm Blade Flourish|Random Drop',
             'Thousand Blades|Random Drop',
             'Verse of Vesagran|Researched or Greater Rune',
         },
