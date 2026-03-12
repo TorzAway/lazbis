@@ -325,7 +325,7 @@ return {
 
         },
         [66] = {
-            'Dreamwalk Discipline|???',
+            'Dreamwalk Discipline|Researched Only',
         },
     },
     ['Necromancer'] = {
