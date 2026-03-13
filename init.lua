@@ -52,7 +52,7 @@ local hideOwnedSpells	= false
 local server		= mq.TLO.EverQuest.Server()
 local dbfmt			= "INSERT INTO Inventory VALUES ('%s','%s','%s','%s','%s','%s',%d,%d,'%s');\n"
 local db
-local actor
+local actor 
 
 local teamName		= ''
 local showPopup		= false
