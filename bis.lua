@@ -1293,7 +1293,13 @@ return {
 			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151057',
 			['Master Tailor\'s Celestial Lining (T5 Trash)'] = 'Master Tailor\'s Celestial Lining/151057',
 			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)',
-			
+				
+			['Chromatic Dragonhide Satchel (Base)'] = 'Chromatic Dragonhide Satchel/81946/81945/81944/81943/81942',
+			['Reinforced Dragonhide Satchel (UP1)'] = 'Reinforced Dragonhide Satchel/81946/81945/81944/81943',
+			['Scaled Dragonhide Satchel (UP2)'] = 'Elder Dragonhide Satchel/81946/81945/81944',
+			['Elder Dragonhide Satchel (UP3)'] = 'Chromatic Dragonhide Satchel/81946/81945',
+			['Ascendant Dragonhide Satchel (UP^)'] = 'Ascendant Dragonhide Satchel/81946',
+		
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/50628',
 			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack',
 
@@ -1315,7 +1321,8 @@ return {
 		['Main'] = {
 			['Slots'] = {				
 				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Tailor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
-				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},
+				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},				
+				{Name='Upgradable Bags (Shady x4)', Slots={'Chromatic Dragonhide Satchel (Base)','Draconic Binding Thread (UPG ITM)','Reinforced Dragonhide Satchel (UP1)','Scaled Dragonhide Satchel (UP2)','Elder Dragonhide Satchel (UP3)','Ascendant Dragonhide Satchel (UP^)'}},				
 				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santug\'s Stocking (Base)','Enhanced Santug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
 				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
 				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},
