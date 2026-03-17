@@ -3075,6 +3075,7 @@ return {
 	['questitems'] = {
 		['Bard'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Echoes',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
@@ -3089,6 +3090,7 @@ return {
 		},
 		['Beastlord'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Mikkily\'s Healing',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
@@ -3097,6 +3099,7 @@ return {
 		['Cleric'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Vie',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
@@ -3106,6 +3109,7 @@ return {
 		['Druid'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of the Immolating Sun',
+			['Honed'] = 'Honed Manastone',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Kelp-Covered Hammer',
@@ -3114,6 +3118,7 @@ return {
 		['Enchanter'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Tashan\'s Echo',
+			['Honed'] = 'Honed Manastone',
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Hammer of Delusions',
@@ -3122,6 +3127,7 @@ return {
 		['Magician'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Jerikor\'s Renewal',
+			['Honed'] = 'Honed Manastone',
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Dagger of Evil Summons',
@@ -3130,6 +3136,7 @@ return {
 		['Monk'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Dragon Fang',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
@@ -3138,6 +3145,7 @@ return {
 		['Necromancer'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Dark Salve',
+			['Honed'] = 'Honed Manastone',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Dagger of Death',
@@ -3147,6 +3155,7 @@ return {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['BellikosTear'] = 'Hardened Tear of the Bellikos',
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Piety',
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
@@ -3157,6 +3166,7 @@ return {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Jolting Snapkicks',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
@@ -3172,6 +3182,7 @@ return {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['BellikosTear'] = 'Hardened Tear of the Bellikos',
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Agony and Hate',
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
@@ -3179,7 +3190,8 @@ return {
 			['Tempest (Pri)'] = 'Tempest of the Wyrm',		
 		},
 		['Shaman'] = {
-			['BellikosEye'] = 'Obsidian Bellikos Eye',
+			['BellikosEye'] = 'Obsidian Bellikos Eye',			
+			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of the Panther',
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
@@ -3199,6 +3211,7 @@ return {
 		['Wizard'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
 			['ImbuedRune'] = 'Imbued Rune of Mana Weave',
+			['Honed'] = 'Honed Manastone',
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Scepter of Incantations',
@@ -3247,6 +3260,7 @@ return {
 				{Name='Power of 6 (Keepsakes)', Slots={'Symbol','Destruction','Mending','Persistence','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
 				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},
 				{Name='VP Hardcore', Slots={'Ember (Pri)','Tempest (Pri)','Cranium (Pri/2nd)','Sigil (2nd)','Satchel','HeartAnguish','HeartDread'}},
+				{Name='Mana Source', Slots={'Honed'}},								
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
 				{Name='Powersource', Slots={'EOC','Radix','LuminousEssence','OtherworldlySoul'}},
 				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
