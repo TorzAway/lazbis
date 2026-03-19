@@ -3136,7 +3136,6 @@ return {
 		['Monk'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
-			['Honed'] = 'Honed Manastone',
 			['ImbuedRune'] = 'Imbued Rune of Dragon Fang',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
