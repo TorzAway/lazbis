@@ -1296,8 +1296,8 @@ return {
 				
 			['Chromatic Dragonhide Satchel (Base)'] = 'Chromatic Dragonhide Satchel/81946/81945/81944/81943/81942',
 			['Reinforced Dragonhide Satchel (UP1)'] = 'Reinforced Dragonhide Satchel/81946/81945/81944/81943',
-			['Scaled Dragonhide Satchel (UP2)'] = 'Elder Dragonhide Satchel/81946/81945/81944',
-			['Elder Dragonhide Satchel (UP3)'] = 'Chromatic Dragonhide Satchel/81946/81945',
+			['Scaled Dragonhide Satchel (UP2)'] = 'Scaled Dragonhide Satchel/81946/81945/81944',
+			['Elder Dragonhide Satchel (UP3)'] = 'Elder Dragonhide Satchel/81946/81945',
 			['Ascendant Dragonhide Satchel (UP^)'] = 'Ascendant Dragonhide Satchel/81946',
 		
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/50628',
