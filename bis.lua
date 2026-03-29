@@ -3232,7 +3232,7 @@ return {
 			['FabledBrew'] = 'Fabled Blackout Brew',
 			['Ferocity'] = 'Hexed Umbra of Ferocity',
 			['FracturedIris'] = 'Gaze of the Fractured Iris',
-			['GuardianPetamorph'] = 'Petamorph Wand - Crystalinbe Guardian',			
+			['GuardianPetamorph'] = 'Petamorph Wand - Crystalline Guardian',			
 			['HeartAnguish'] = 'Heart of Anguish',
 			['HeartDread'] = 'Heart of Dread',
 			['Horseshoe'] = '9 Spheres of Ascension',
