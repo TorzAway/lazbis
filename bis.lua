@@ -3095,6 +3095,7 @@ return {
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
+			['Cranium (Pri/2nd)'] = 'Cranium of Eternal Pain',
 		},
 		['Cleric'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3105,6 +3106,7 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Weighted Hammer of Conviction',
 			['Veeshan Clicky'] = 'Aged Shissar Apothic Staff',
+			['Sigil (2nd)'] = 'Sigil of the Claws',	
 		},
 		['Druid'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3114,6 +3116,7 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Kelp-Covered Hammer',
 			['Veeshan Clicky'] = 'Aged Dragon Spine Staff',
+			['Sigil (2nd)'] = 'Sigil of the Claws',	
 		},
 		['Enchanter'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3160,6 +3163,7 @@ return {
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
 			['Tempest (Pri)'] = 'Tempest of the Wyrm',
+			['Sigil (2nd)'] = 'Sigil of the Claws',	
 		},
 		['Ranger'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3195,7 +3199,8 @@ return {
 			['Food'] = 'Sleek Spring Roll Sampler',
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Zun\'Muram\'s Spear of Doom',
-			['Veeshan Clicky'] = 'Aged Hammer of the Dragonborn',	
+			['Veeshan Clicky'] = 'Aged Hammer of the Dragonborn',
+			['Sigil (2nd)'] = 'Sigil of the Claws',				
 		},
 		['Warrior'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3222,8 +3227,7 @@ return {
 			['BIC3'] = 'Black Gemstone of Suffering',
 			['BIC4'] = 'Black Gemstone of Torture',
 			['BellikosDoll'] = 'Living Bellikos Doll - Tranquility',
-			['Cleaving'] = 'Hexed Umbra of Cleaving',				
-			['Cranium (Pri/2nd)'] = 'Cranium of Eternal Pain',
+			['Cleaving'] = 'Hexed Umbra of Cleaving',
 			['Deflection'] = 'Hexed Umbra of Deflection',
 			['Destruction'] = 'Hexed Umbra of Destruction',
 			['EOC'] = 'Essence of Creation/150402',
@@ -3248,7 +3252,6 @@ return {
 			['Persistence'] = 'Hexed Umbra of Persistence',
 			['Radix'] = 'Radix',
 			['Satchel'] = 'Ascendant Dragonhide Satchel',
-			['Sigil (2nd)'] = 'Sigil of the Claws',	
 			['Suffering'] = 'Hexed Umbra of Suffering',
 			['Symbol'] = 'Symbol of Uhl\'Zaroth',
 			['Tongue'] = '9 Realms of Transition',
