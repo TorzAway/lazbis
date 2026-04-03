@@ -3117,6 +3117,7 @@ return {
 			['Tacvi Clicky'] = 'Kelp-Covered Hammer',
 			['Veeshan Clicky'] = 'Aged Dragon Spine Staff',
 			['Sigil (2nd)'] = 'Sigil of the Claws',	
+			['FireCrown'] = 'Crown of Fire Nimbus',
 		},
 		['Enchanter'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3135,6 +3136,7 @@ return {
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Dagger of Evil Summons',
 			['Veeshan Clicky'] = 'Aged Sarnak Channeler Staff',
+			['FireCrown'] = 'Crown of Fire Nimbus',
 		},
 		['Monk'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3173,6 +3175,7 @@ return {
 			['ImbuedRune'] = 'Imbued Rune of Jolting Snapkicks',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
+			['FireCrown'] = 'Crown of Fire Nimbus',
 		},
 		['Rogue'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3190,7 +3193,8 @@ return {
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
-			['Tempest (Pri)'] = 'Tempest of the Wyrm',		
+			['Tempest (Pri)'] = 'Tempest of the Wyrm',	
+			['Sigil (2nd)'] = 'Sigil of the Claws',				
 		},
 		['Shaman'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',			
@@ -3219,7 +3223,8 @@ return {
 			['Food'] = 'Sorcerer\'s Spice Chicken',
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Scepter of Incantations',
-			['Veeshan Clicky'] = 'Aged Shissar Elementalist\'s Staff',			
+			['Veeshan Clicky'] = 'Aged Shissar Elementalist\'s Staff',		
+			['FireCrown'] = 'Crown of Fire Nimbus',			
 		},
 		['Template'] = {
 			['BIC1'] = 'Black Gemstone of Death',
@@ -3227,6 +3232,7 @@ return {
 			['BIC3'] = 'Black Gemstone of Suffering',
 			['BIC4'] = 'Black Gemstone of Torture',
 			['BellikosDoll'] = 'Living Bellikos Doll - Tranquility',
+			['BloodcursedCrown'] = 'Bloodcursed Crown of Vzith',
 			['Cleaving'] = 'Hexed Umbra of Cleaving',
 			['Deflection'] = 'Hexed Umbra of Deflection',
 			['Destruction'] = 'Hexed Umbra of Destruction',
@@ -3235,8 +3241,8 @@ return {
 			['Eyes'] = '9 Eyes of the Ghost',
 			['FabledBrew'] = 'Fabled Blackout Brew',
 			['Ferocity'] = 'Hexed Umbra of Ferocity',
-			['FracturedIris'] = 'Gaze of the Fractured Iris',
-			['GuardianPetamorph'] = 'Petamorph Wand - Crystalline Guardian',			
+			['FracturedIris'] = 'Gaze of the Fractured Iris',	
+			['GuardianPetamorph'] = 'Petamorph Wand - Crystalline Guardian',	
 			['HeartAnguish'] = 'Heart of Anguish',
 			['HeartDread'] = 'Heart of Dread',
 			['Horseshoe'] = '9 Spheres of Ascension',
@@ -3262,7 +3268,8 @@ return {
 			['Slots'] = {
 				{Name='Power of 3 (HS)', Slots={'Lucky Grass Trinket','Lucky Copper/Silver'}},
 				{Name='Power of 6 (Keepsakes)', Slots={'Symbol','Destruction','Mending','Persistence','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
-				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},
+				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},				
+				{Name='The Crimson Curse', Slots={'BloodcursedCrown','FireCrown'}},
 				{Name='VP Hardcore', Slots={'Ember (Pri)','Tempest (Pri)','Cranium (Pri/2nd)','Sigil (2nd)','Satchel','HeartAnguish','HeartDread'}},
 				{Name='Mana Source', Slots={'Honed','FracturedIris','GuardianPetamorph'}},								
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
