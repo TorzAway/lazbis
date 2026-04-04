@@ -1300,17 +1300,59 @@ return {
 			['Elder Dragonhide Satchel (UP3)'] = 'Elder Dragonhide Satchel/81946/81945',
 			['Ascendant Dragonhide Satchel (UP^)'] = 'Ascendant Dragonhide Satchel/81946',
 		
-			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/50628',
-			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack',
+			['Blue Brawler\'s Bindle (Base)'] = 'Blue Brawler\'s Bindle/50200',
+			['Enhanced Blue Brawler\'s Bindle (UP^)'] = 'Enhanced Blue Brawler\'s Bindle',	
+	
+			['Candy Bowl (Base)'] = 'Candy Bowl/50130',
+			['Enhanced Candy Bowl (UP^)'] = 'Enhanced Candy Bowl',
 
-			['Santug\'s Stocking (Base)'] = 'Santug\'s Stocking/50623',
-			['Enhanced Santug\'s Stocking (UP^)'] = 'Enhanced Santug\'s Stocking',
-			
+			['Champion\'s Pack (Base)'] = 'Champion\'s Pack/50123',
+			['Enhanced Champion\'s Pack (UP^)'] = 'Enhanced Champion\'s Pack',
+
+			['Clover Tote (Base)'] = 'Clover Tote/50131',
+			['Enhanced Clover Tote (UP^)'] = 'Enhanced Clover Tote',
+
+			['Enchanted Slimesack (Base)'] = 'Enchanted Slimesack/50126',
+			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack',
+
+			['Glorious Prize Purse (Base)'] = 'Clover Tote/50125',
+			['Enhanced Glorious Prize Purse (UP^)'] = 'Enhanced Glorious Prize Purse',
+
 			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/50423',
 			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box',
 
-			['Enchanted Slimesack (Token DZ) (Base)'] = 'Enchanted Slimesack/50126',
-			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack',
+			['Jack-O-Lantern Bag (Base)'] = 'Jack-O-Lantern Bag/50127',
+			['Enhanced Jack-O-Lantern Bag (UP^)'] = 'Enhanced Jack-O-Lantern Bag',
+
+			['Tailored Legendary Pink Pack (Base)'] = 'Enhanced Legendary Pink Pack/50628',
+			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack',
+
+			['Magic Murder Satchel (Base)'] = 'Enhanced Magic Murder Satchel/50198',
+			['Enhanced Magic Murder Satchel (UP^)'] = 'Enhanced Magic Murder Satchel',
+
+			['Red Rival\'s Rucksack (Base)'] = 'Enhanced Red Rival\'s Rucksack/50202',
+			['Enhanced Red Rival\'s Rucksack (UP^)'] = 'Enhanced Red Rival\'s Rucksack',
+
+			['Risky Basket (Base)'] = 'Enhanced Risky Basket/50129',
+			['Enhanced Risky Basket (UP^)'] = 'Enhanced Risky Basket',
+
+			['Runner\'s Rucksack (Base)'] = 'Enhanced Runner\'s Rucksack/50165',
+			['Enhanced Runner\'s Rucksack (UP^)'] = 'Enhanced Runner\'s Rucksack',
+
+			['Sack of the Doomed (Base)'] = 'Enhanced Sack of the Doomed/50124',
+			['Enhanced Sack of the Doomed (UP^)'] = 'Enhanced Sack of the Doomed',
+
+			['Santug Claugg\'s Sack (Base)'] = 'Enhanced Santug Claugg\'s Sack/50128',
+			['Enhanced Santug Claugg\'s Sack (UP^)'] = 'Enhanced Santug Claugg\'s Sack',
+
+			['Santug\'s Stocking (Base)'] = 'Enhanced Santug\'s Stocking/50623',
+			['Enhanced Santug\'s Stocking (UP^)'] = 'Enhanced Santug\'s Stocking',
+
+			['Speedster\'s Satchel (Base)'] = 'Enhanced Speedster\'s Satchel/50163',
+			['Enhanced Speedster\'s Satchel (UP^)'] = 'Enhanced Speedster\'s Satchel',
+
+			['Treasure Hunter\'s Carryall (Base)'] = 'Enhanced Treasure Hunter\'s Carryall/50396',
+			['Enhanced Treasure Hunter\'s Carryall (UP^)'] = 'Enhanced Treasure Hunter\'s Carryall',			
 
 			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50625',
 			['Alloy Reinforced Bank Vault (UP^)'] = 'Alloy Reinforced Bank Vault',
@@ -1322,8 +1364,10 @@ return {
 			['Slots'] = {				
 				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Tailor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
 				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},				
-				{Name='Upgradable Bags (Shady x4)', Slots={'Chromatic Dragonhide Satchel (Base)','Draconic Binding Thread (UPG ITM)','Reinforced Dragonhide Satchel (UP1)','Scaled Dragonhide Satchel (UP2)','Elder Dragonhide Satchel (UP3)','Ascendant Dragonhide Satchel (UP^)'}},				
-				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santug\'s Stocking (Base)','Enhanced Santug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
+				{Name='Upgradable Bags (Shady x4)', Slots={'Chromatic Dragonhide Satchel (Base)','Draconic Binding Thread (UPG ITM)','Reinforced Dragonhide Satchel (UP1)','Scaled Dragonhide Satchel (UP2)','Elder Dragonhide Satchel (UP3)','Ascendant Dragonhide Satchel (UP^)'}},
+				
+				{Name='Upgradable Bags (Jolum x1)', Slots={'Blue Brawler\'s Bindle (Base)','Enhanced Blue Brawler\'s Bindle (UP^)','Candy Bowl (Base)','Enhanced Candy Bowl (UP^)','Champion\'s Pack (Base)','Enhanced Champion\'s Pack (UP^)','Clover Tote (Base)','Enhanced Clover Tote (UP^)','Enchanted Slimesack (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)','Glorious Prize Purse (Base)','Enhanced Glorious Prize Purse (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Jack-O-Lantern Bag (Base)','Enhanced Jack-O-Lantern Bag (UP^)','Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Magic Murder Satchel (Base)','Enhanced Magic Murder Satchel (UP^)','Red Rival\'s Rucksack (Base)','Enhanced Red Rival\'s Rucksack (UP^)','Risky Basket (Base)','Enhanced Risky Basket (UP^)','Runner\'s Rucksack (Base)','Enhanced Runner\'s Rucksack (UP^)','Sack of the Doomed (Base)','Enhanced Sack of the Doomed (UP^)','Santug Claugg\'s Sack (Base)','Enhanced Santug Claugg\'s Sack (UP^)','Santug\'s Stocking (Base)','Enhanced Santug\'s Stocking (UP^)','Speedster\'s Satchel (Base)','Enhanced Speedster\'s Satchel (UP^)','Treasure Hunter\'s Carryall (Base)','Enhanced Treasure Hunter\'s Carryall (UP^)'}},
+				
 				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
 				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},
 			},
