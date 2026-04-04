@@ -1315,7 +1315,7 @@ return {
 			['Enchanted Slimesack (Base)'] = 'Enchanted Slimesack/50126',
 			['Enhanced Enchanted Slimesack (Token DZ) (UP^)'] = 'Enhanced Enchanted Slimesack',
 
-			['Glorious Prize Purse (Base)'] = 'Clover Tote/50125',
+			['Glorious Prize Purse (Base)'] = 'Glorious Prize Purse/50125',
 			['Enhanced Glorious Prize Purse (UP^)'] = 'Enhanced Glorious Prize Purse',
 
 			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/50423',
@@ -1324,34 +1324,34 @@ return {
 			['Jack-O-Lantern Bag (Base)'] = 'Jack-O-Lantern Bag/50127',
 			['Enhanced Jack-O-Lantern Bag (UP^)'] = 'Enhanced Jack-O-Lantern Bag',
 
-			['Tailored Legendary Pink Pack (Base)'] = 'Enhanced Legendary Pink Pack/50628',
+			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/50628',
 			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack',
 
-			['Magic Murder Satchel (Base)'] = 'Enhanced Magic Murder Satchel/50198',
+			['Magic Murder Satchel (Base)'] = 'Magic Murder Satchel/50198',
 			['Enhanced Magic Murder Satchel (UP^)'] = 'Enhanced Magic Murder Satchel',
 
-			['Red Rival\'s Rucksack (Base)'] = 'Enhanced Red Rival\'s Rucksack/50202',
+			['Red Rival\'s Rucksack (Base)'] = 'Red Rival\'s Rucksack/50202',
 			['Enhanced Red Rival\'s Rucksack (UP^)'] = 'Enhanced Red Rival\'s Rucksack',
 
-			['Risky Basket (Base)'] = 'Enhanced Risky Basket/50129',
+			['Risky Basket (Base)'] = 'Risky Basket/50129',
 			['Enhanced Risky Basket (UP^)'] = 'Enhanced Risky Basket',
 
-			['Runner\'s Rucksack (Base)'] = 'Enhanced Runner\'s Rucksack/50165',
+			['Runner\'s Rucksack (Base)'] = 'Runner\'s Rucksack/50165',
 			['Enhanced Runner\'s Rucksack (UP^)'] = 'Enhanced Runner\'s Rucksack',
 
-			['Sack of the Doomed (Base)'] = 'Enhanced Sack of the Doomed/50124',
+			['Sack of the Doomed (Base)'] = 'Sack of the Doomed/50124',
 			['Enhanced Sack of the Doomed (UP^)'] = 'Enhanced Sack of the Doomed',
 
-			['Santug Claugg\'s Sack (Base)'] = 'Enhanced Santug Claugg\'s Sack/50128',
+			['Santug Claugg\'s Sack (Base)'] = 'Santug Claugg\'s Sack/50128',
 			['Enhanced Santug Claugg\'s Sack (UP^)'] = 'Enhanced Santug Claugg\'s Sack',
 
-			['Santug\'s Stocking (Base)'] = 'Enhanced Santug\'s Stocking/50623',
+			['Santug\'s Stocking (Base)'] = 'Santug\'s Stocking/50623',
 			['Enhanced Santug\'s Stocking (UP^)'] = 'Enhanced Santug\'s Stocking',
 
-			['Speedster\'s Satchel (Base)'] = 'Enhanced Speedster\'s Satchel/50163',
+			['Speedster\'s Satchel (Base)'] = 'Speedster\'s Satchel/50163',
 			['Enhanced Speedster\'s Satchel (UP^)'] = 'Enhanced Speedster\'s Satchel',
 
-			['Treasure Hunter\'s Carryall (Base)'] = 'Enhanced Treasure Hunter\'s Carryall/50396',
+			['Treasure Hunter\'s Carryall (Base)'] = 'Treasure Hunter\'s Carryall/50396',
 			['Enhanced Treasure Hunter\'s Carryall (UP^)'] = 'Enhanced Treasure Hunter\'s Carryall',			
 
 			['Bank Storage Crate (Shady) (Base)'] = 'Bank Storage Crate/50625',
