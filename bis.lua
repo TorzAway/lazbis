@@ -3104,7 +3104,8 @@ return {
 			['ImbuedRune'] = 'Imbued Rune of Echoes',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
-			['Idol'] = '9 Paths of Despair',			
+			['Idol'] = '9 Paths of Despair',	
+			['Sigil (2nd)'] = 'Sigil of the Claws',				
 		},
 		['Berserker'] = {
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
