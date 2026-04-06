@@ -2,9 +2,11 @@
 Best In Slot - Project Lazarus Edition
 aquietone, dlilah, ...
 
+WanteD fork Maintained by Kroaking
+
 Tracker lua script for all the good stuff to have on Project Lazarus server.
 ]]
-local meta			= {version = '3.5.4i(WanteD)', name = string.match(string.gsub(debug.getinfo(1, 'S').short_src, '\\init.lua', ''), "[^\\]+$")}
+local meta			= {version = '3.6.1(WanteD)', name = string.match(string.gsub(debug.getinfo(1, 'S').short_src, '\\init.lua', ''), "[^\\]+$")}
 local mq			= require('mq')
 local ImGui			= require('ImGui')
 local bisConfig		= require('bis')
@@ -103,6 +105,8 @@ local DZ_NAMES = {
 		{name='Plane of Time', lockout='Quarm', zone='Plane of Time', index=3}, -- 'Phase 1 Complete', 'Phase 2 Complete', 'Phase 3 Complete', 'Phase 4 Complete', 'Phase 5 Complete', 'Quarm'
 	}
 }
+
+--local dzInfo = {[mq.TLO.Me.CleanName()] = {Raid={}, TwoGroupRaid={}, Group={}}}
 local dzInfo = {[mq.TLO.Me.CleanName()] = {Raid={}, TwoGroupRaid={}, Group={}, OldRaids={}}}
 
 local niceImg = mq.CreateTexture(mq.luaDir .. "/" .. meta.name .. "/bis.png")
@@ -1428,8 +1432,8 @@ local function bisGUI()
 						end
 						ImGui.TableHeadersRow()
 
-						-- for _,category in ipairs({'Raid','Group','OldRaids'}) do
-						for _,category in ipairs({'Raid','TwoGroupRaid','Group'}) do
+				     -- for _,category in ipairs({'Raid','TwoGroupRaid','Group'}) do
+						for _,category in ipairs({'Raid','TwoGroupRaid','Group','OldRaids'}) do
 							ImGui.TableNextRow()
 							ImGui.TableNextColumn()
 							if ImGui.TreeNodeEx(category, bit32.bor(ImGuiTreeNodeFlags.SpanFullWidth, ImGuiTreeNodeFlags.DefaultOpen)) then
@@ -1694,8 +1698,8 @@ local function bisCommand(...)
 		printf('Missing Spells:\n%s', table.concat(missingSpellsText, '\n'))
 	elseif args[1] == 'lockouts' then
 		local output = ''
-		-- for _,category in ipairs({'Raid','Group','OldRaids'}) do
-		for _,category in ipairs({'Raid','TwoGroupRaid','Group'}) do
+	 -- for _,category in ipairs({'Raid','TwoGroupRaid','Group'}) do
+		for _,category in ipairs({'Raid','TwoGroupRaid','Group','OldRaids'}) do
 			if not args[2] or args[2]:lower() == category:lower() then 
 				for _,dz in ipairs(DZ_NAMES[category]) do
 					output = output .. '\ay' .. dz.name .. '\ax \ar' .. category .. '\ax (\ag' .. dz.zone .. '\ax): '
@@ -1717,8 +1721,8 @@ local function populateDZInfo()
 	mq.delay(1)
 	mq.TLO.Window('DynamicZoneWnd').DoClose()
 	mq.delay(1)
-	-- for _,category in ipairs({'Raid','Group','OldRaids'}) do
-	for _,category in ipairs({'Raid','TwoGroupRaid','Group'}) do
+	-- for _,category in ipairs({'Raid','TwoGroupRaid','Group'}) do
+	for _,category in ipairs({'Raid','TwoGroupRaid','Group','OldRaids'}) do
 		for _,dz in ipairs(DZ_NAMES[category]) do
 			local idx = mq.TLO.Window('DynamicZoneWnd/DZ_TimerList').List(dz.lockout,dz.index or 2)()
 			if idx then
