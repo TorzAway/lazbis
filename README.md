@@ -5,7 +5,11 @@ Gotta collect em all
 Initial anguish and DSK standalone scripts provided by Dlilah and ... from Verticordious.  
 Main Branch of LazBis is maintained by AquietOne on ProjLaz Discord.
 Other lists provided by myself, Dlilah and ...
+<<<<<<< HEAD
 WanteD fork maintained by Kroaking. 
+=======
+WanteD fork maintained by Kroaking.
+>>>>>>> 2ff1969a1fc987cd9b237e6360db4bb9a2fd1d65
 
 ## Installation
 
