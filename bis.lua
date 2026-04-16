@@ -2658,6 +2658,7 @@ return {
 			['EscalatingOnslaught(HStr)'] = 'Planar Alloy of Escalating Onslaught',
 			['Dragorn(+ 10 to Wep Skills'] = 'Dragorn War Mask',
 			['VenomVial'] = 'Bottomless Venom Vial',
+			['Bifold'] = 'Bifold Focus of the Evil Eye',
 		},
 		['Cleric'] = {
 			['Manastone'] = 'Manastone',
@@ -2733,6 +2734,7 @@ return {
 		['Shaman'] = {
 			['Manastone'] = 'Manastone',
 			['SnakeFlute'] = 'Snake Charmer\'s Flute/40459',
+			['Bifold'] = 'Bifold Focus of the Evil Eye',
 		},
 		['Warrior'] = {
 			['IdolScale'] = 'Idol of the Scale/150977',
