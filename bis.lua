@@ -3106,8 +3106,7 @@ return {
 			['ImbuedRune'] = 'Imbued Rune of Echoes',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
-			['Idol'] = '9 Paths of Despair',	
-			['Sigil (2nd)'] = 'Sigil of the Claws',				
+			['Idol'] = '9 Paths of Despair',		
 		},
 		['Berserker'] = {
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
@@ -3134,7 +3133,6 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Weighted Hammer of Conviction',
 			['Veeshan Clicky'] = 'Aged Shissar Apothic Staff',
-			['Sigil (2nd)'] = 'Sigil of the Claws',	
 		},
 		['Druid'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3144,7 +3142,6 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Kelp-Covered Hammer',
 			['Veeshan Clicky'] = 'Aged Dragon Spine Staff',
-			['Sigil (2nd)'] = 'Sigil of the Claws',	
 			['FireCrown'] = 'Crown of Fire Nimbus',
 		},
 		['Enchanter'] = {
@@ -3193,7 +3190,6 @@ return {
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
 			['Tempest (Pri)'] = 'Tempest of the Wyrm',
-			['Sigil (2nd)'] = 'Sigil of the Claws',	
 		},
 		['Ranger'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3221,8 +3217,7 @@ return {
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
-			['Tempest (Pri)'] = 'Tempest of the Wyrm',	
-			['Sigil (2nd)'] = 'Sigil of the Claws',				
+			['Tempest (Pri)'] = 'Tempest of the Wyrm',			
 		},
 		['Shaman'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',			
@@ -3232,7 +3227,6 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Zun\'Muram\'s Spear of Doom',
 			['Veeshan Clicky'] = 'Aged Hammer of the Dragonborn',
-			['Sigil (2nd)'] = 'Sigil of the Claws',				
 		},
 		['Warrior'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3286,6 +3280,7 @@ return {
 			['Persistence'] = 'Hexed Umbra of Persistence',
 			['Radix'] = 'Radix',
 			['Satchel'] = 'Ascendant Dragonhide Satchel',
+			['Sigil'] = 'Sigil of the Claws',				
 			['Suffering'] = 'Hexed Umbra of Suffering',
 			['Symbol'] = 'Symbol of Uhl\'Zaroth',
 			['Tongue'] = '9 Realms of Transition',
@@ -3298,7 +3293,7 @@ return {
 				{Name='Power of 6 (Keepsakes)', Slots={'Symbol','Destruction','Mending','Persistence','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
 				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},				
 				{Name='The Crimson Curse', Slots={'BloodcursedCrown','FireCrown'}},
-				{Name='VP Hardcore', Slots={'Ember (Pri)','Tempest (Pri)','Cranium (Pri/2nd)','Sigil (2nd)','Satchel','HeartAnguish','HeartDread'}},
+				{Name='VP Hardcore', Slots={'Ember (Pri)','Tempest (Pri)','Cranium (Pri/2nd)','Sigil','Satchel','HeartAnguish','HeartDread'}},
 				{Name='Mana Source', Slots={'Honed','FracturedIris','GuardianPetamorph'}},								
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
 				{Name='Powersource', Slots={'EOC','Radix','LuminousEssence','OtherworldlySoul'}},
