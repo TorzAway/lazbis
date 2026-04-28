@@ -2703,6 +2703,7 @@ return {
 			['EscalatingOnslaught(HStr)'] = 'Planar Alloy of Escalating Onslaught',
 			['Dragorn(+ 10 to Wep Skills'] = 'Dragorn War Mask',
 			['IdolScale'] = 'Idol of the Scale/150977',
+			['VenomVial'] = 'Bottomless Venom Vial',
 		},
 		['Ranger'] = {
 			['Manastone'] = 'Manastone',
@@ -2720,7 +2721,6 @@ return {
 			['BloodDrinker'] = 'Blood Drinker\'s Coating',
 			['EscalatingOnslaught(HStr)'] = 'Planar Alloy of Escalating Onslaught',
 			['Dragorn(+ 10 to Wep Skills'] = 'Dragorn War Mask',
-			['VenomVial'] = 'Bottomless Venom Vial',
 		},
 		['Shadow Knight'] = {
 			['IdolScale'] = 'Idol of the Scale/150977',
@@ -2730,6 +2730,7 @@ return {
 			['BloodDrinker'] = 'Blood Drinker\'s Coating',
 			['EscalatingOnslaught(HStr)'] = 'Planar Alloy of Escalating Onslaught',
 			['Dragorn(+ 10 to Wep Skills'] = 'Dragorn War Mask',
+			['VenomVial'] = 'Bottomless Venom Vial',
 		},
 		['Shaman'] = {
 			['Manastone'] = 'Manastone',
@@ -2744,6 +2745,7 @@ return {
 			['Striking(Kick)'] = 'Focus Rune of Striking',
 			['EscalatingOnslaught(HStr)'] = 'Planar Alloy of Escalating Onslaught',
 			['Dragorn(+ 10 to Wep Skills'] = 'Dragorn War Mask',
+			['VenomVial'] = 'Bottomless Venom Vial',
 		},
 		['Wizard'] = {
 			['Manastone'] = 'Manastone',
@@ -2773,8 +2775,8 @@ return {
 				{Name='Discordian', Slots={'Annihilation(Spell Damage)','Evasion(Avoidance)','MysticalAegis(DoT Shield)','Precision(Accuracy)','Rapidity(Attack)','Tenacity(Defense)',}},
 				{Name='Planar', Slots={'AdeptBlows(Tiger Claw)','BruteForce(Bash)','DexterousStriking(Flying Kick)','EnchantedJewel(Shielding)','EscalatingOnslaught(HStr)','FoulPlay(Backstab)','FuriousAssault(Frenzy)','MysticalAegis(Spell Shield)','Prowess(Offense)','Striking(Kick)'}},
 				{Name='Diamond Coins', Slots={'Manastone'}},
-				{Name='Gold Coins', Slots={'Dragorn(+ 10 to Wep Skills)','War Bear Saddle(Or any other AC Mount)','DarkArachnids(Does not stack with other Dodge)','WarPirate(Does not stack with Brell)'}},
-				{Name='Celestial Crests', Slots={'BloodDrinker','IdolScale','Lucky Copper/Silver','Lucky Grass','Lucky Horseshoe','Mount','Oculous','VenomVial','Bifold',}},
+				{Name='Gold Coins', Slots={'DarkArachnids(Does not stack with other Dodge)','Dragorn(+ 10 to Wep Skills)','War Bear Saddle(Or any other AC Mount)','WarPirate(Does not stack with Brell)'}},
+				{Name='Celestial Crests', Slots={'Bifold','BloodDrinker','IdolScale','Lucky Copper/Silver','Lucky Grass','Lucky Horseshoe','Mount','Oculous','VenomVial'}},
 				{Name='Player Made', Slots={'BoarWhistle','SnakeFlute',}},
 			}
 		}
