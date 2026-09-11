@@ -60,7 +60,11 @@ local hideOwnedSpells	= false
 -- Spells tab layout: each character gets its own fixed-width table, laid out
 -- side by side inside a horizontally scrollable child window.
 local SPELL_TABLE_HEIGHT	= 300
-local spellColumnWidth		= 340
+-- Per-character Spells tables now size their Name/Location columns automatically
+-- to fit the longest string currently shown in them, instead of a fixed/manual width.
+local SPELL_COL_PADDING	= 20		-- extra pixels added past the widest string, for cell padding/breathing room
+local SPELL_NAME_MIN_WIDTH	= 80		-- floor width so an empty/short table doesn't collapse to nothing
+local SPELL_LOC_MIN_WIDTH	= 80
 
 local server		= mq.TLO.EverQuest.Server()
 local dbfmt			= "INSERT INTO Inventory VALUES ('%s','%s','%s','%s','%s','%s',%d,%d,'%s');\n"
@@ -1473,20 +1477,35 @@ local function bisGUI()
 					drawCharacterMenus()
 					ImGui.SameLine()
 					VerticalSeparator()
-					ImGui.SameLine()
-					ImGui.PushItemWidth(120)
-					local tmpSpellColWidth = ImGui.SliderInt('Col Width##spellcolwidth', spellColumnWidth, 200, 800)
-					ImGui.PopItemWidth()
-					if tmpSpellColWidth ~= spellColumnWidth then spellColumnWidth = tmpSpellColWidth end
+
+					-- Compute the "Me" table's column widths from the longest Name/Location
+					-- strings that will actually be shown (honoring the Missing Only filter),
+					-- so the table auto-fits its content instead of needing a manual resize.
+					local meNameW, meLocW = SPELL_NAME_MIN_WIDTH, SPELL_LOC_MIN_WIDTH
+					for _,level in ipairs({71,70,69,68,67,66}) do
+						local levelSpells = spellConfig[mq.TLO.Me.Class()][level]
+						for _,spellName in ipairs(levelSpells) do
+							local spellDetails = splitToTable(spellName, '|')
+							local nameOnly = spellDetails[1]
+							local spellLocation = spellDetails[2]
+							spellData[nameOnly] = spellData[nameOnly] or mq.TLO.Me.Book(nameOnly)() or mq.TLO.Me.CombatAbility(nameOnly)() or 0
+							if not hideOwnedSpells or spellData[nameOnly] == 0 then
+								meNameW = math.max(meNameW, ImGui.CalcTextSize(nameOnly))
+								meLocW = math.max(meLocW, ImGui.CalcTextSize(spellLocation))
+							end
+						end
+					end
+					meNameW = meNameW + SPELL_COL_PADDING
+					meLocW = meLocW + SPELL_COL_PADDING
 
 					-- Horizontally scrollable region holding one table per character
 					ImGui.BeginChild('SpellsScrollRegion', -1, SPELL_TABLE_HEIGHT + 55, false, ImGuiWindowFlags.HorizontalScrollbar)
 					ImGui.BeginGroup()
 					ImGui.Text('%s', mq.TLO.Me.CleanName())
-					if ImGui.BeginTable('Spells', 2, bit32.bor(ImGuiTableFlags.BordersInner, ImGuiTableFlags.RowBg, ImGuiTableFlags.NoSavedSettings, ImGuiTableFlags.ScrollY), spellColumnWidth, SPELL_TABLE_HEIGHT) then
+					if ImGui.BeginTable('Spells', 2, bit32.bor(ImGuiTableFlags.BordersInner, ImGuiTableFlags.RowBg, ImGuiTableFlags.NoSavedSettings, ImGuiTableFlags.ScrollY, ImGuiTableFlags.SizingFixedFit), meNameW + meLocW, SPELL_TABLE_HEIGHT) then
 						ImGui.TableSetupScrollFreeze(0, 1)
-						ImGui.TableSetupColumn('Name', bit32.bor(ImGuiTableColumnFlags.WidthStretch), 2, 2)
-						ImGui.TableSetupColumn('Location', bit32.bor(ImGuiTableColumnFlags.WidthStretch), 1, 3)
+						ImGui.TableSetupColumn('Name', bit32.bor(ImGuiTableColumnFlags.WidthFixed), meNameW, 2)
+						ImGui.TableSetupColumn('Location', bit32.bor(ImGuiTableColumnFlags.WidthFixed), meLocW, 3)
 						ImGui.TableHeadersRow()
 
 						for _,level in ipairs({71,70,69,68,67,66}) do
@@ -1516,13 +1535,23 @@ local function bisGUI()
 					for i,char in ipairs(group) do
 						if char.Show and groupSpellData[char.Name] then
 							local data = groupSpellData[char.Name]
+
+							-- Same auto-width computation, based on this character's actual data.
+							local charNameW, charLocW = SPELL_NAME_MIN_WIDTH, SPELL_LOC_MIN_WIDTH
+							for _,entry in ipairs(data) do
+								charNameW = math.max(charNameW, ImGui.CalcTextSize(entry[2]))
+								charLocW = math.max(charLocW, ImGui.CalcTextSize(entry[3]))
+							end
+							charNameW = charNameW + SPELL_COL_PADDING
+							charLocW = charLocW + SPELL_COL_PADDING
+
 							ImGui.SameLine()
 							ImGui.BeginGroup()
 							ImGui.Text('%s', char.Name)
-							if ImGui.BeginTable('Spells'..char.Name, 2, bit32.bor(ImGuiTableFlags.BordersInner, ImGuiTableFlags.RowBg, ImGuiTableFlags.NoSavedSettings, ImGuiTableFlags.ScrollY), spellColumnWidth, SPELL_TABLE_HEIGHT) then
+							if ImGui.BeginTable('Spells'..char.Name, 2, bit32.bor(ImGuiTableFlags.BordersInner, ImGuiTableFlags.RowBg, ImGuiTableFlags.NoSavedSettings, ImGuiTableFlags.ScrollY, ImGuiTableFlags.SizingFixedFit), charNameW + charLocW, SPELL_TABLE_HEIGHT) then
 								ImGui.TableSetupScrollFreeze(0, 1)
-								ImGui.TableSetupColumn('Name', bit32.bor(ImGuiTableColumnFlags.WidthStretch), 2, 2)
-								ImGui.TableSetupColumn('Location', bit32.bor(ImGuiTableColumnFlags.WidthStretch), 1, 3)
+								ImGui.TableSetupColumn('Name', bit32.bor(ImGuiTableColumnFlags.WidthFixed), charNameW, 2)
+								ImGui.TableSetupColumn('Location', bit32.bor(ImGuiTableColumnFlags.WidthFixed), charLocW, 3)
 								ImGui.TableHeadersRow()
 
 								for _,level in ipairs({71,70,69,68,67,66}) do
