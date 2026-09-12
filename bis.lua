@@ -880,7 +880,7 @@ return {
 			['Slots'] = {
 				{Name='Visibles', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrist1','Wrist2',}},
 				{Name='Non-Visibles', Slots={'Back','Ear1','Ear2','Face','Finger1','Finger2','Neck','Shoulder','Waist',}},
-				{Name='Weapons', Slots={'MainHand','MainHand Aug (BER)','Secondary','Ranged Ammo (RNG)','RangedAug','CharmDrop','Charm',}},
+				{Name='Weapons', Slots={'MainHand','MainHand Aug (BER)','Secondary','Ranged','Ranged Ammo (RNG)','RangedAug','CharmDrop','Charm',}},
 				{Name='Legendary', Slots={'PrimaryLegend','SecondaryLegend','TertiaryLegend',}},
 			},
 		},
