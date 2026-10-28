@@ -2125,7 +2125,7 @@ return {
 			['WeaponAug5'] = 'Desolate Fire Emerald',
 			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug7'] = 'Desolate Onyx',			
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Berserker'] = {
 			['Epic2.5'] = 'Ancient Taelosian Blood Axe',
@@ -2147,7 +2147,7 @@ return {
 			['WeaponAug5'] = 'Desolate Fire Emerald',
 			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug7'] = 'Desolate Onyx',			
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Beastlord'] = {
 			['Epic2.5'] = 'Spiritcaller Totem of the Ancients',
@@ -2173,7 +2173,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Cleric'] = {
 			['Epic2.5'] = 'Aegis of Ancient Divinity',
@@ -2199,7 +2199,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Druid'] = {
 			['Epic2.5'] = 'Staff of Ancient Brambles',
@@ -2218,7 +2218,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Enchanter'] = {
 			['Epic2.5'] = 'Staff of Ancient Eloquence',
@@ -2237,7 +2237,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Magician'] = {
 			['Epic2.5'] = 'Focus of Ancient Elements',
@@ -2256,7 +2256,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Monk'] = {
 			['Epic2.5'] = 'Ancient Fistwraps of Immortality',
@@ -2278,7 +2278,7 @@ return {
 			['WeaponAug5'] = 'Desolate Fire Emerald',
 			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug7'] = 'Desolate Onyx',			
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Necromancer'] = {
 			['Epic2.5'] = 'Ancient Deathwhisper',
@@ -2297,7 +2297,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Paladin'] = {
 			['Epic2.5'] = 'Nightbane, Sword of the Ancients',
@@ -2323,7 +2323,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Ranger'] = {
 			['Epic2.5'] = 'Aurora, the Ancient Bow',
@@ -2349,7 +2349,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Rogue'] = {
 			['Epic2.5'] = 'Nightshade, Blade of Ancient Entropy',
@@ -2371,7 +2371,7 @@ return {
 			['WeaponAug5'] = 'Desolate Fire Emerald',
 			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug7'] = 'Desolate Onyx',			
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Shadow Knight'] = {
 			['Epic2.5'] = 'Innoruuk\'s Ancient Blessing',
@@ -2397,7 +2397,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Shaman'] = {
 			['Epic2.5'] = 'Ancient Spiritstaff of the Heyokah',
@@ -2416,7 +2416,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Warrior'] = {
 			['Epic2.5'] = 'Kreljnok\'s Sword of Ancient Power',
@@ -2438,7 +2438,7 @@ return {
 			['WeaponAug5'] = 'Desolate Fire Emerald',
 			['WeaponAug6'] = 'Desolate Hematite',
 			['WeaponAug7'] = 'Desolate Onyx',			
-			['WeaponAug12'] = 'Grotesque Skull of Grit',
+			['WeaponAug12 (Secondary)'] = 'Grotesque Skull of Grit',
 		},
 		['Wizard'] = {
 			['Epic2.5'] = 'Staff of Ancient Power',
@@ -2453,7 +2453,7 @@ return {
 			['WeaponAug9'] = 'Desolate Malachite',			
 			['WeaponAug10'] = 'Desolate Star Rose Quartz',
 			['WeaponAug11'] = 'Desolate Star Ruby',			
-			['WeaponAug12'] = 'Vitreous Skull of Vitality',
+			['WeaponAug12 (Secondary)'] = 'Vitreous Skull of Vitality',
 			['WeaponAug13 (2nd SWAP)'] = 'Grotesque Skull of Grit',
 		},
 		['Main'] = {
@@ -2463,7 +2463,7 @@ return {
 				{Name='Infused Flux Augs', Slots={'FluxAug1 (Spell Shield)','FluxAug2 (Regen)','FluxAug3 (20 Attack/Acc)','FluxAug4 (50 Attack/Acc)','FluxAug5 (20 Attack/Acc)','FluxAug6 (Regen)','FluxAug7 (Dot/Stun)','FluxAug8 (3 Shield/5 Avoidance)','FluxAug9 (Avoidance)'}},
 				{Name='Noxious Bloom Augs', Slots={'FlowerAug1 (Parry/Block)','FlowerAug2 (Increase Duration)','FlowerAug3 (Double Attack)','FlowerAug4 (Crit)','FlowerAug5 (Dodge)','FlowerAug6 (Healing)','FlowerAug7 (Reduce Mana Cost)'}},
 				{Name='Slime of Suffering Augs', Slots={'SlimeAug1 (Poison)','SlimeAug2 (Cold)','SlimeAug3 (Disease)','SlimeAug4 (Magic)','SlimeAug5 (Fire)'}},
-				{Name='Weapon Augs', Slots={'WeaponAug1','WeaponAug2','WeaponAug3','WeaponAug4','WeaponAug5','WeaponAug6','WeaponAug7','WeaponAug8','WeaponAug9','WeaponAug10','WeaponAug11','WeaponAug12','WeaponAug13 (2nd SWAP)'}},
+				{Name='Weapon Augs', Slots={'WeaponAug1','WeaponAug2','WeaponAug3','WeaponAug4','WeaponAug5','WeaponAug6','WeaponAug7','WeaponAug8','WeaponAug9','WeaponAug10','WeaponAug11','WeaponAug12 (Secondary)','WeaponAug13 (2nd SWAP)'}},
 				{Name='Forsaken Armor', Slots={'Arms','Chest','Feet','Hands','Head','Legs','Wrist',}},
 				{Name='Forsaken Clickies', Slots={'ClickyWep1','ClickyWep2','ClickyWep3','ClickyWep4','ClickyWep5','ClickyWep6','ClickyWep7','ClickyWep8','Fungi'}},
 			},
