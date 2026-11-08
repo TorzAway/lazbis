@@ -3183,6 +3183,7 @@ return {
 			['DarkArachnids'] = 'Visage of the Dark Arachnids',
 			['Lucky Horseshoe'] = 'Luckiest of Horseshoes/150978',
 			['War Bear Saddle(Or any other AC Mount)'] = 'War Bear Saddle/39635',
+			['Cold Hard Heart-Lucky Beast Foot'] = 'Cold, Hard Heart/150156',
 		},
 		['Main'] = {
 			['Slots'] = {
@@ -3190,7 +3191,7 @@ return {
 				{Name='Planar', Slots={'AdeptBlows(Tiger Claw)','BruteForce(Bash)','DexterousStriking(Flying Kick)','EnchantedJewel(Shielding)','EscalatingOnslaught(HStr)','FoulPlay(Backstab)','FuriousAssault(Frenzy)','MysticalAegis(Spell Shield)','Prowess(Offense)','Striking(Kick)'}},
 				{Name='Diamond Coins', Slots={'Manastone'}},
 				{Name='Gold Coins', Slots={'DarkArachnids(Does not stack with other Dodge)','Dragorn(+ 10 to Wep Skills)','War Bear Saddle(Or any other AC Mount)','WarPirate(Does not stack with Brell)'}},
-				{Name='Celestial Crests', Slots={'Bifold','BloodDrinker','IdolScale','Lucky Copper/Silver','Lucky Grass','Lucky Horseshoe','Mount','Oculous','VenomVial'}},
+				{Name='Celestial Crests', Slots={'Bifold','BloodDrinker','Cold Hard Heart-Lucky Beast Foot','IdolScale','Lucky Copper/Silver','Lucky Grass','Lucky Horseshoe','Mount','Oculous','VenomVial'}},
 				{Name='Player Made', Slots={'BoarWhistle','SnakeFlute',}},
 			}
 		}
