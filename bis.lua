@@ -3719,7 +3719,9 @@ return {
 			['Persistence'] = 'Hexed Umbra of Persistence',
 			['Radix'] = 'Radix',
 			['Satchel'] = 'Ascendant Dragonhide Satchel',
-			['Sigil'] = 'Sigil of the Claws',				
+			['Sigil'] = 'Sigil of the Claws',								
+			['SpiritofSeason(Valor)'] = 'Spirit of the Season (Valor)/51935/51940',		
+			['SpiritofSeason(Wisdom)'] = 'Spirit of the Season (Wisdom)/51936/51941',			
 			['Suffering'] = 'Hexed Umbra of Suffering',
 			['Symbol'] = 'Symbol of Uhl\'Zaroth',
 			['Tongue'] = '9 Realms of Transition',
@@ -3738,7 +3740,7 @@ return {
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
 				{Name='Powersource', Slots={'EOC','Radix','LuminousEssence','OtherworldlySoul'}},
 				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
-				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
+				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','SpiritofSeason(Valor)','SpiritofSeason(Wisdom)','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
 				{Name='Food/Drink', Slots={'Food','Drink'}}
 			}
 		}
