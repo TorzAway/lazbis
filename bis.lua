@@ -3720,13 +3720,17 @@ return {
 			['Radix'] = 'Radix',
 			['Satchel'] = 'Ascendant Dragonhide Satchel',
 			['Sigil'] = 'Sigil of the Claws',								
-			['SpiritofSeason(Valor)'] = 'Spirit of the Season (Valor)/51935/51940',		
-			['SpiritofSeason(Wisdom)'] = 'Spirit of the Season (Wisdom)/51936/51941',			
+			['SpiritofSeason(Valor)'] = 'Spirit of the Season (Valor)/51935/51940',
+			['SpiritofSeason(Wisdom)'] = 'Spirit of the Season (Wisdom)/51936/51941',
 			['Suffering'] = 'Hexed Umbra of Suffering',
 			['Symbol'] = 'Symbol of Uhl\'Zaroth',
 			['Tongue'] = '9 Realms of Transition',
 			['Wayfarer'] = 'Wayfarers Brotherhood Emblem',
-			['West Karana PortKey'] = 'Moonlit Mirror',
+			['West Karana PortKey'] = 'Moonlit Mirror',			
+			['WE_Defender'] = 'Winter\'s Embrace: Defender/151094/151102',
+			['WE_Healer'] = 'Winter\'s Embrace: Healer/151096/151105',
+			['WE_Slayer'] = 'Winter\'s Embrace: Slayer/151095/151099',
+			['WE_Sorcerer'] = 'Winter\'s Embrace: Sorcerer/151097/151105',
 		},
 		['Main'] = {
 			['Slots'] = {
@@ -3740,7 +3744,8 @@ return {
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll'}},
 				{Name='Powersource', Slots={'EOC','Radix','LuminousEssence','OtherworldlySoul'}},
 				{Name='Augs', Slots={'BIC1','BIC2','BIC3','BIC4','IntricateFigurine','Wayfarer'}},
-				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','SpiritofSeason(Valor)','SpiritofSeason(Wisdom)','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
+				{Name='Frostfell', Slots={'SpiritofSeason(Valor)','SpiritofSeason(Wisdom)','WE_Defender','WE_Healer','WE_Sorcerer','WE_Slayer'}},
+				{Name='Other', Slots={'ImbuedRune','FabledBrew','LazCharm','Tacvi Clicky','Veeshan Clicky','Kithikor PortKey','West Karana PortKey'}},
 				{Name='Food/Drink', Slots={'Food','Drink'}}
 			}
 		}
