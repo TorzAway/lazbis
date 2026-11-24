@@ -41,6 +41,7 @@ return {
 			[6]={id='vendoritems',name='Vendor Items'},
 			[7]={id='focusitems',name='Focus Items'},
 			[8]={id='bagitems',name='Bag Items'},
+			[9]={id='nimbusitems',name='Nimbus Items'},
 		},
 	},
 	['ZoneMap'] = {
@@ -1761,6 +1762,65 @@ return {
 		},
 		['ShowBaseItemNames'] = {['ALL']=1},
 	},
+	
+	--
+	--
+	--
+	
+	['nimbusitems'] = {
+		['Template'] = {
+			['Arachnophobia Nimbus'] = 'Arachnophobia Nimbus/64708',
+			['Butterfly Nimbus'] = 'Butterfly Nimbus/61035',
+			['Cherry Blossom Nimbus'] = 'Cherry Blossom Nimbus/53358',
+			['Crocus Nimbus'] = 'Crocus Nimbus/57474',
+			['Crown of Fire Nimbus'] = 'Crown of Fire Nimbus/60946',
+			['Crown of Roses Nimbus'] = 'Crown of Roses Nimbus/50491',
+			['Crystalline Shield Nimbus'] = 'Crystalline Shield Nimbus/54918',
+			['Fae Spirit Nimbus'] = 'Fae Spirit Nimbus/61955',
+			['Fireworks Nimbus'] = 'Fireworks Nimbus/62769',
+			['Fruitcake Nimbus'] = 'Fruitcake Nimbus/57380',
+			['Nightmare Nimbus'] = 'Nightmare Nimbus/52195',
+			['Nimbus of Burning Steps'] = 'Nimbus of Burning Steps/40784',
+			['Nimbus of Daylight'] = 'Nimbus of Daylight/43977',
+			['Nimbus of Fire and Ice'] = 'Nimbus of Fire and Ice/54915',
+			['Nimbus of Frost'] = 'Nimbus of Frost/57381',
+			['Nimbus of Growth'] = 'Nimbus of Growth/40658',
+			['Nimbus of Holly'] = 'Nimbus of Holly/57379',
+			['Nimbus of Midnight'] = 'Nimbus of Midnight/43978',
+			['Nimbus of Rushing Water'] = 'Nimbus of Rushing Water/40785',
+			['Nimbus of the Air Queen'] = 'Nimbus of the Air Queen/40690',
+			['Nimbus of the Burning Prince'] = 'Nimbus of the Burning Prince/40620',
+			['Nimbus of the Burning Pyrilen'] = 'Nimbus of the Burning Pyrilen/40719',
+			['Nimbus of the Crystal Gelidran'] = 'Nimbus of the Crystal Gelidran/40716',
+			['Nimbus of the Dazed'] = 'Nimbus of the Dazed/48974',
+			['Nimbus of the Dead'] = 'Nimbus of the Dead/43976',
+			['Nimbus of the Frozen Gelidran'] = 'Nimbus of the Frozen Gelidran/40717',
+			['Nimbus of the Jester'] = 'Nimbus of the Jester/40689',
+			['Nimbus of the Lover'] = 'Nimbus of the Lover/40660',
+			['Nimbus of the Molten Pyrilen'] = 'Nimbus of the Molten Pyrilen/40718',
+			['Nimbus of the Ocean Lord'] = 'Nimbus of the Ocean Lord/40691',
+			['Nimbus of the Rain Keeper'] = 'Nimbus of the Rain Keeper/40657',
+			['Nimbus of the Riftseeker'] = 'Nimbus of the Riftseeker/40720',
+			['Nimbus of the Tempest'] = 'Nimbus of the Tempest/53752',
+			['Nimbus of the Tranquil'] = 'Nimbus of the Tranquil/40688',
+			['Nimbus of the Void'] = 'Nimbus of the Void/40783',
+			['Nimbus of the Wisp'] = 'Nimbus of the Wisp/40687',
+			['Rose Petal Nimbus'] = 'Rose Petal Nimbus/57529',
+			['Share the Love Nimbus'] = 'Share the Love Nimbus/57530',
+			['Solstice Nimbus'] = 'Solstice Nimbus/64746',
+			['Spinefist Nimbus'] = 'Spinefist Nimbus/50490',
+		},
+		['Main'] = {
+			['Slots'] = {				
+				{Name='Nimbus Items', Slots={'Arachnophobia Nimbus','Butterfly Nimbus','Cherry Blossom Nimbus','Crocus Nimbus','Crown of Fire Nimbus','Crown of Roses Nimbus','Crystalline Shield Nimbus','Fae Spirit Nimbus','Fireworks Nimbus','Fruitcake Nimbus','Nightmare Nimbus','Nimbus of Burning Steps','Nimbus of Daylight','Nimbus of Fire and Ice','Nimbus of Frost','Nimbus of Growth','Nimbus of Holly','Nimbus of Midnight','Nimbus of Rushing Water','Nimbus of the Air Queen','Nimbus of the Burning Prince','Nimbus of the Burning Pyrilen','Nimbus of the Crystal Gelidran','Nimbus of the Dazed','Nimbus of the Dead','Nimbus of the Frozen Gelidran','Nimbus of the Jester','Nimbus of the Lover','Nimbus of the Molten Pyrilen','Nimbus of the Ocean Lord','Nimbus of the Rain Keeper','Nimbus of the Riftseeker','Nimbus of the Tempest','Nimbus of the Tranquil','Nimbus of the Void','Nimbus of the Wisp','Rose Petal Nimbus','Share the Love Nimbus','Solstice Nimbus','Spinefist Nimbus',}},
+			},
+		},
+	},
+	
+	--
+	--
+	--	
+	
 	['fungal'] = {
 		['Template'] = {
 			['Base Corrosive Slime of Suffering (Poison)'] = 'Corrosive Slime of Suffering/39077',
