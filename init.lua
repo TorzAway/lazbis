@@ -334,11 +334,18 @@ end
 local function buildInsertStmt(name, category)
 	local stmt = "\n"
 	local char = group[name]
+	-- Resolve names from the list being written (category == list id), NOT the global
+	-- itemList, which follows whatever list the GUI currently has selected. Using the
+	-- global dropped every missing item whenever results for a different list arrived.
+	local cfg = bisConfig[category] or itemList
 	for slot,value in pairs(gear[name]) do
 		local itemName = value.actualname
 		local configSlot = slot ~= 'Wrist1' and slot ~= 'Wrist2' and slot or 'Wrists'
 		if not itemName then
-			itemName = itemList[char.Class] and (itemList[char.Class][configSlot] or itemList[char.Class][slot] or itemList.Template[configSlot] or itemList.Template[slot])
+			-- NOTE: lists like nimbusitems/fungal/jonas/bagitems only have a Template table
+			-- (no per-class tables), so the Template lookup must not depend on cfg[char.Class].
+			itemName = (cfg[char.Class] and (cfg[char.Class][configSlot] or cfg[char.Class][slot]))
+				or (cfg.Template and (cfg.Template[configSlot] or cfg.Template[slot]))
 			if itemName and string.find(itemName, '/') then
 				itemName = itemName:match("([^/]+)")
 			end
@@ -1815,9 +1822,10 @@ local function writeAllItemLists()
 			gear[name] = searchItemsInList(list.id)
 			insertStmt = insertStmt .. buildInsertStmt(name, list.id)
 		end
-		clearAllDataForCharacter(name)
-		exec(insertStmt, name, nil, 'inserted')
 	end
+	-- clear existing inventory rows once, then insert all lists in a single transaction
+	clearAllDataForCharacter(name)
+	exec(insertStmt, name, nil, 'inserted')
 	-- clear spell data
 	clearSpellDataForCharacter(name)
 	-- insert spell data
